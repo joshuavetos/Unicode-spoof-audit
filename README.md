@@ -1,43 +1,178 @@
 # Unicode Spoof Audit
 
-Unicode Spoof Audit is a reproducible harness for generating Unicode spoofing corpora and evaluating policy controls for security-sensitive identifiers and non-authoritative display names.
+Generate Unicode spoofing corpora, benchmark detection strategies, and evaluate identifier security policies against reproducible attack surfaces.
 
-## Threat Model
+## Overview
 
-Visually deceptive identifiers can bypass human review while remaining distinct at the byte level. A protected identifier such as `Admin` can be imitated with characters such as Cyrillic `а`, producing a string that looks similar to a person but is not byte-identical.
+Unicode Spoof Audit tests a common interface-trust failure:
 
-This project evaluates defensive boundaries rather than privilege escalation. Authorization must never be granted by visual similarity, display-name analysis, or advisory risk scoring.
+A string can look identical or highly similar to a human reviewer while remaining different at the byte level.
 
-## Policy Boundaries
+Example:
 
-1. **Strict identifier policy** for usernames, service accounts, slugs, internal IDs, and other authoritative identifiers.
-   - Allows only `[A-Za-z0-9_-]`.
-   - Rejects reserved names after casefold normalization.
-   - Rejects all Unicode outside the ASCII allowlist.
-2. **Display-name policy** for profile metadata and user-facing labels.
-   - Allows Unicode when it is not an authority gate.
-   - Rejects BiDi and invisible layout controls.
-   - Rejects dangerous Unicode categories.
-   - Rejects mixed-script labels except common CJK-family combinations.
-   - Flags combining marks as advisory risk.
-
-## Reproduction Steps
-
-```bash
-python examples/generate_corpus.py
-python examples/run_audit.py
-python examples/benchmark_all.py
+```text
+Admin
+Admаn
 ```
 
-Generated corpus data is written to `corpus/generated/admin_spoof_corpus.json`.
+The second string contains a Cyrillic `а` (`U+0430`) instead of a Latin `a` (`U+0061`).
 
-## Representative Results
+This repository provides tooling to:
+
+- Generate Unicode spoof corpora
+- Measure detector coverage
+- Benchmark detector cost
+- Compare heuristic detection against deterministic prevention
+- Evaluate identifier security policies
+
+## Current Corpus
+
+Generated from the protected identifier:
+
+```text
+Admin
+```
+
+Current benchmark corpus:
+
+- 1,763 generated variants
+- Homoglyph substitutions
+- Mixed-script variants
+- BiDi controls
+- Invisible characters
+- Combining marks
+
+## Benchmark Results
+
+| Metric | Result |
+| --- | --- |
+| Generated variants | 1,763 |
+| Mixed-script detection | 864 |
+| Skeleton detection | 674 |
+| Aggregate coverage | 62.73% |
+| Residual unflagged variants | 657 |
+
+### Runtime
+
+| Configuration | Runtime |
+| --- | --- |
+| Script + skeleton | ~0.0147s |
+| Script + skeleton + edit distance | ~0.1540s |
+
+Observed edit-distance overhead:
+
+```text
+947.57%
+```
+
+## Security Model
+
+### Strict Identifier Policy
+
+Used for:
+
+- Usernames
+- Service accounts
+- Routing slugs
+- Internal IDs
+- Other authoritative identifiers
+
+Allowed character set:
+
+```text
+[A-Za-z0-9_-]
+```
+
+Policy behavior:
+
+- Reject all Unicode outside the allowlist
+- Reject reserved identities after canonical normalization
+- Treat identifiers as the authoritative security boundary
+
+### Display Name Policy
+
+Used for:
+
+- Display names
+- Profile labels
+- User-facing metadata
+
+Policy behavior:
+
+- Allow Unicode
+- Reject BiDi controls
+- Reject invisible layout controls
+- Reject dangerous Unicode categories
+- Reject mixed-script compositions
+- Flag combining marks
+
+Display names are not authority-bearing identifiers.
+
+## Example Results
 
 | Input | Identifier Policy | Display Policy |
 | --- | --- | --- |
-| `Admin` | Rejected: reserved identity collision | Rejected: reserved identity collision |
-| `admіn` | Rejected: strict ASCII allowlist violation | Rejected: mixed-script composition |
+| `Admin` | Rejected | Rejected |
+| `admіn` | Rejected | Rejected |
 | `Josh_90` | Secure | Approved |
-| `共有` | Rejected: strict ASCII allowlist violation | Approved |
-| `José` | Rejected: strict ASCII allowlist violation | Risk flagged: combining mark |
-| `abc‮txt` | Rejected: strict ASCII allowlist violation | Rejected: layout control |
+| `共有` | Rejected | Approved |
+| `José` | Rejected | Risk flagged |
+| `abc‮txt` | Rejected | Rejected |
+
+## Repository Layout
+
+```text
+unicode-spoof-audit/
+├── benchmarks/
+├── corpus/
+├── detectors/
+├── docs/
+├── examples/
+├── tests/
+├── README.md
+├── pyproject.toml
+└── requirements.txt
+```
+
+## Quick Start
+
+Generate the corpus:
+
+```bash
+python examples/generate_corpus.py
+```
+
+Run the audit:
+
+```bash
+python examples/run_audit.py
+```
+
+Run benchmarks:
+
+```bash
+python examples/benchmark_all.py
+```
+
+Generated corpus output:
+
+```text
+corpus/generated/admin_spoof_corpus.json
+```
+
+## Scope
+
+Coverage metrics apply only to the generated corpus used during this audit.
+
+Results should not be interpreted as measurements of:
+
+- All Unicode spoofing techniques
+- All fonts
+- All rendering engines
+- All browsers
+- All user interfaces
+- All possible identifiers
+
+## License
+
+See `LICENSE`.

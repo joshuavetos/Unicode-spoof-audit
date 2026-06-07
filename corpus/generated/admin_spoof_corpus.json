@@ -1,0 +1,3592 @@
+{
+  "target": "Admin",
+  "confusables": [
+    {
+      "target": "A",
+      "character": "Α",
+      "codepoint": "U+0391",
+      "name": "GREEK CAPITAL LETTER ALPHA"
+    },
+    {
+      "target": "A",
+      "character": "А",
+      "codepoint": "U+0410",
+      "name": "CYRILLIC CAPITAL LETTER A"
+    },
+    {
+      "target": "A",
+      "character": "Ꭺ",
+      "codepoint": "U+13AA",
+      "name": "CHEROKEE LETTER GO"
+    },
+    {
+      "target": "A",
+      "character": "Ａ",
+      "codepoint": "U+FF21",
+      "name": "FULLWIDTH LATIN CAPITAL LETTER A"
+    },
+    {
+      "target": "a",
+      "character": "а",
+      "codepoint": "U+0430",
+      "name": "CYRILLIC SMALL LETTER A"
+    },
+    {
+      "target": "a",
+      "character": "α",
+      "codepoint": "U+03B1",
+      "name": "GREEK SMALL LETTER ALPHA"
+    },
+    {
+      "target": "a",
+      "character": "ａ",
+      "codepoint": "U+FF41",
+      "name": "FULLWIDTH LATIN SMALL LETTER A"
+    },
+    {
+      "target": "d",
+      "character": "ԁ",
+      "codepoint": "U+0501",
+      "name": "CYRILLIC SMALL LETTER KOMI DE"
+    },
+    {
+      "target": "d",
+      "character": "ⅾ",
+      "codepoint": "U+217E",
+      "name": "SMALL ROMAN NUMERAL FIVE HUNDRED"
+    },
+    {
+      "target": "d",
+      "character": "ｄ",
+      "codepoint": "U+FF44",
+      "name": "FULLWIDTH LATIN SMALL LETTER D"
+    },
+    {
+      "target": "m",
+      "character": "м",
+      "codepoint": "U+043C",
+      "name": "CYRILLIC SMALL LETTER EM"
+    },
+    {
+      "target": "m",
+      "character": "ⅿ",
+      "codepoint": "U+217F",
+      "name": "SMALL ROMAN NUMERAL ONE THOUSAND"
+    },
+    {
+      "target": "m",
+      "character": "ｍ",
+      "codepoint": "U+FF4D",
+      "name": "FULLWIDTH LATIN SMALL LETTER M"
+    },
+    {
+      "target": "i",
+      "character": "і",
+      "codepoint": "U+0456",
+      "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I"
+    },
+    {
+      "target": "i",
+      "character": "ι",
+      "codepoint": "U+03B9",
+      "name": "GREEK SMALL LETTER IOTA"
+    },
+    {
+      "target": "i",
+      "character": "Ꭵ",
+      "codepoint": "U+13A5",
+      "name": "CHEROKEE LETTER V"
+    },
+    {
+      "target": "i",
+      "character": "ｉ",
+      "codepoint": "U+FF49",
+      "name": "FULLWIDTH LATIN SMALL LETTER I"
+    },
+    {
+      "target": "n",
+      "character": "ո",
+      "codepoint": "U+0578",
+      "name": "ARMENIAN SMALL LETTER VO"
+    },
+    {
+      "target": "n",
+      "character": "п",
+      "codepoint": "U+043F",
+      "name": "CYRILLIC SMALL LETTER PE"
+    },
+    {
+      "target": "n",
+      "character": "ｎ",
+      "codepoint": "U+FF4E",
+      "name": "FULLWIDTH LATIN SMALL LETTER N"
+    }
+  ],
+  "homoglyph_variants": [
+    "Admin",
+    "Admiո",
+    "Admiп",
+    "Admiｎ",
+    "Admіn",
+    "Admіո",
+    "Admіп",
+    "Admіｎ",
+    "Admιn",
+    "Admιո",
+    "Admιп",
+    "Admιｎ",
+    "AdmᎥn",
+    "AdmᎥո",
+    "AdmᎥп",
+    "AdmᎥｎ",
+    "Admｉn",
+    "Admｉո",
+    "Admｉп",
+    "Admｉｎ",
+    "Adмin",
+    "Adмiո",
+    "Adмiп",
+    "Adмiｎ",
+    "Adміn",
+    "Adміո",
+    "Adміп",
+    "Adміｎ",
+    "Adмιn",
+    "Adмιո",
+    "Adмιп",
+    "Adмιｎ",
+    "AdмᎥn",
+    "AdмᎥո",
+    "AdмᎥп",
+    "AdмᎥｎ",
+    "Adмｉn",
+    "Adмｉո",
+    "Adмｉп",
+    "Adмｉｎ",
+    "Adⅿin",
+    "Adⅿiո",
+    "Adⅿiп",
+    "Adⅿiｎ",
+    "Adⅿіn",
+    "Adⅿіո",
+    "Adⅿіп",
+    "Adⅿіｎ",
+    "Adⅿιn",
+    "Adⅿιո",
+    "Adⅿιп",
+    "Adⅿιｎ",
+    "AdⅿᎥn",
+    "AdⅿᎥո",
+    "AdⅿᎥп",
+    "AdⅿᎥｎ",
+    "Adⅿｉn",
+    "Adⅿｉո",
+    "Adⅿｉп",
+    "Adⅿｉｎ",
+    "Adｍin",
+    "Adｍiո",
+    "Adｍiп",
+    "Adｍiｎ",
+    "Adｍіn",
+    "Adｍіո",
+    "Adｍіп",
+    "Adｍіｎ",
+    "Adｍιn",
+    "Adｍιո",
+    "Adｍιп",
+    "Adｍιｎ",
+    "AdｍᎥn",
+    "AdｍᎥո",
+    "AdｍᎥп",
+    "AdｍᎥｎ",
+    "Adｍｉn",
+    "Adｍｉո",
+    "Adｍｉп",
+    "Adｍｉｎ",
+    "Aԁmin",
+    "Aԁmiո",
+    "Aԁmiп",
+    "Aԁmiｎ",
+    "Aԁmіn",
+    "Aԁmіո",
+    "Aԁmіп",
+    "Aԁmіｎ",
+    "Aԁmιn",
+    "Aԁmιո",
+    "Aԁmιп",
+    "Aԁmιｎ",
+    "AԁmᎥn",
+    "AԁmᎥո",
+    "AԁmᎥп",
+    "AԁmᎥｎ",
+    "Aԁmｉn",
+    "Aԁmｉո",
+    "Aԁmｉп",
+    "Aԁmｉｎ",
+    "Aԁмin",
+    "Aԁмiո",
+    "Aԁмiп",
+    "Aԁмiｎ",
+    "Aԁміn",
+    "Aԁміո",
+    "Aԁміп",
+    "Aԁміｎ",
+    "Aԁмιn",
+    "Aԁмιո",
+    "Aԁмιп",
+    "Aԁмιｎ",
+    "AԁмᎥn",
+    "AԁмᎥո",
+    "AԁмᎥп",
+    "AԁмᎥｎ",
+    "Aԁмｉn",
+    "Aԁмｉո",
+    "Aԁмｉп",
+    "Aԁмｉｎ",
+    "Aԁⅿin",
+    "Aԁⅿiո",
+    "Aԁⅿiп",
+    "Aԁⅿiｎ",
+    "Aԁⅿіn",
+    "Aԁⅿіո",
+    "Aԁⅿіп",
+    "Aԁⅿіｎ",
+    "Aԁⅿιn",
+    "Aԁⅿιո",
+    "Aԁⅿιп",
+    "Aԁⅿιｎ",
+    "AԁⅿᎥn",
+    "AԁⅿᎥո",
+    "AԁⅿᎥп",
+    "AԁⅿᎥｎ",
+    "Aԁⅿｉn",
+    "Aԁⅿｉո",
+    "Aԁⅿｉп",
+    "Aԁⅿｉｎ",
+    "Aԁｍin",
+    "Aԁｍiո",
+    "Aԁｍiп",
+    "Aԁｍiｎ",
+    "Aԁｍіn",
+    "Aԁｍіո",
+    "Aԁｍіп",
+    "Aԁｍіｎ",
+    "Aԁｍιn",
+    "Aԁｍιո",
+    "Aԁｍιп",
+    "Aԁｍιｎ",
+    "AԁｍᎥn",
+    "AԁｍᎥո",
+    "AԁｍᎥп",
+    "AԁｍᎥｎ",
+    "Aԁｍｉn",
+    "Aԁｍｉո",
+    "Aԁｍｉп",
+    "Aԁｍｉｎ",
+    "Aⅾmin",
+    "Aⅾmiո",
+    "Aⅾmiп",
+    "Aⅾmiｎ",
+    "Aⅾmіn",
+    "Aⅾmіո",
+    "Aⅾmіп",
+    "Aⅾmіｎ",
+    "Aⅾmιn",
+    "Aⅾmιո",
+    "Aⅾmιп",
+    "Aⅾmιｎ",
+    "AⅾmᎥn",
+    "AⅾmᎥո",
+    "AⅾmᎥп",
+    "AⅾmᎥｎ",
+    "Aⅾmｉn",
+    "Aⅾmｉո",
+    "Aⅾmｉп",
+    "Aⅾmｉｎ",
+    "Aⅾмin",
+    "Aⅾмiո",
+    "Aⅾмiп",
+    "Aⅾмiｎ",
+    "Aⅾміn",
+    "Aⅾміո",
+    "Aⅾміп",
+    "Aⅾміｎ",
+    "Aⅾмιn",
+    "Aⅾмιո",
+    "Aⅾмιп",
+    "Aⅾмιｎ",
+    "AⅾмᎥn",
+    "AⅾмᎥո",
+    "AⅾмᎥп",
+    "AⅾмᎥｎ",
+    "Aⅾмｉn",
+    "Aⅾмｉո",
+    "Aⅾмｉп",
+    "Aⅾмｉｎ",
+    "Aⅾⅿin",
+    "Aⅾⅿiո",
+    "Aⅾⅿiп",
+    "Aⅾⅿiｎ",
+    "Aⅾⅿіn",
+    "Aⅾⅿіո",
+    "Aⅾⅿіп",
+    "Aⅾⅿіｎ",
+    "Aⅾⅿιn",
+    "Aⅾⅿιո",
+    "Aⅾⅿιп",
+    "Aⅾⅿιｎ",
+    "AⅾⅿᎥn",
+    "AⅾⅿᎥո",
+    "AⅾⅿᎥп",
+    "AⅾⅿᎥｎ",
+    "Aⅾⅿｉn",
+    "Aⅾⅿｉո",
+    "Aⅾⅿｉп",
+    "Aⅾⅿｉｎ",
+    "Aⅾｍin",
+    "Aⅾｍiո",
+    "Aⅾｍiп",
+    "Aⅾｍiｎ",
+    "Aⅾｍіn",
+    "Aⅾｍіո",
+    "Aⅾｍіп",
+    "Aⅾｍіｎ",
+    "Aⅾｍιn",
+    "Aⅾｍιո",
+    "Aⅾｍιп",
+    "Aⅾｍιｎ",
+    "AⅾｍᎥn",
+    "AⅾｍᎥո",
+    "AⅾｍᎥп",
+    "AⅾｍᎥｎ",
+    "Aⅾｍｉn",
+    "Aⅾｍｉո",
+    "Aⅾｍｉп",
+    "Aⅾｍｉｎ",
+    "Aｄmin",
+    "Aｄmiո",
+    "Aｄmiп",
+    "Aｄmiｎ",
+    "Aｄmіn",
+    "Aｄmіո",
+    "Aｄmіп",
+    "Aｄmіｎ",
+    "Aｄmιn",
+    "Aｄmιո",
+    "Aｄmιп",
+    "Aｄmιｎ",
+    "AｄmᎥn",
+    "AｄmᎥո",
+    "AｄmᎥп",
+    "AｄmᎥｎ",
+    "Aｄmｉn",
+    "Aｄmｉո",
+    "Aｄmｉп",
+    "Aｄmｉｎ",
+    "Aｄмin",
+    "Aｄмiո",
+    "Aｄмiп",
+    "Aｄмiｎ",
+    "Aｄміn",
+    "Aｄміո",
+    "Aｄміп",
+    "Aｄміｎ",
+    "Aｄмιn",
+    "Aｄмιո",
+    "Aｄмιп",
+    "Aｄмιｎ",
+    "AｄмᎥn",
+    "AｄмᎥո",
+    "AｄмᎥп",
+    "AｄмᎥｎ",
+    "Aｄмｉn",
+    "Aｄмｉո",
+    "Aｄмｉп",
+    "Aｄмｉｎ",
+    "Aｄⅿin",
+    "Aｄⅿiո",
+    "Aｄⅿiп",
+    "Aｄⅿiｎ",
+    "Aｄⅿіn",
+    "Aｄⅿіո",
+    "Aｄⅿіп",
+    "Aｄⅿіｎ",
+    "Aｄⅿιn",
+    "Aｄⅿιո",
+    "Aｄⅿιп",
+    "Aｄⅿιｎ",
+    "AｄⅿᎥn",
+    "AｄⅿᎥո",
+    "AｄⅿᎥп",
+    "AｄⅿᎥｎ",
+    "Aｄⅿｉn",
+    "Aｄⅿｉո",
+    "Aｄⅿｉп",
+    "Aｄⅿｉｎ",
+    "Aｄｍin",
+    "Aｄｍiո",
+    "Aｄｍiп",
+    "Aｄｍiｎ",
+    "Aｄｍіn",
+    "Aｄｍіո",
+    "Aｄｍіп",
+    "Aｄｍіｎ",
+    "Aｄｍιn",
+    "Aｄｍιո",
+    "Aｄｍιп",
+    "Aｄｍιｎ",
+    "AｄｍᎥn",
+    "AｄｍᎥո",
+    "AｄｍᎥп",
+    "AｄｍᎥｎ",
+    "Aｄｍｉn",
+    "Aｄｍｉո",
+    "Aｄｍｉп",
+    "Aｄｍｉｎ",
+    "Αdmin",
+    "Αdmiո",
+    "Αdmiп",
+    "Αdmiｎ",
+    "Αdmіn",
+    "Αdmіո",
+    "Αdmіп",
+    "Αdmіｎ",
+    "Αdmιn",
+    "Αdmιո",
+    "Αdmιп",
+    "Αdmιｎ",
+    "ΑdmᎥn",
+    "ΑdmᎥո",
+    "ΑdmᎥп",
+    "ΑdmᎥｎ",
+    "Αdmｉn",
+    "Αdmｉո",
+    "Αdmｉп",
+    "Αdmｉｎ",
+    "Αdмin",
+    "Αdмiո",
+    "Αdмiп",
+    "Αdмiｎ",
+    "Αdміn",
+    "Αdміո",
+    "Αdміп",
+    "Αdміｎ",
+    "Αdмιn",
+    "Αdмιո",
+    "Αdмιп",
+    "Αdмιｎ",
+    "ΑdмᎥn",
+    "ΑdмᎥո",
+    "ΑdмᎥп",
+    "ΑdмᎥｎ",
+    "Αdмｉn",
+    "Αdмｉո",
+    "Αdмｉп",
+    "Αdмｉｎ",
+    "Αdⅿin",
+    "Αdⅿiո",
+    "Αdⅿiп",
+    "Αdⅿiｎ",
+    "Αdⅿіn",
+    "Αdⅿіո",
+    "Αdⅿіп",
+    "Αdⅿіｎ",
+    "Αdⅿιn",
+    "Αdⅿιո",
+    "Αdⅿιп",
+    "Αdⅿιｎ",
+    "ΑdⅿᎥn",
+    "ΑdⅿᎥո",
+    "ΑdⅿᎥп",
+    "ΑdⅿᎥｎ",
+    "Αdⅿｉn",
+    "Αdⅿｉո",
+    "Αdⅿｉп",
+    "Αdⅿｉｎ",
+    "Αdｍin",
+    "Αdｍiո",
+    "Αdｍiп",
+    "Αdｍiｎ",
+    "Αdｍіn",
+    "Αdｍіո",
+    "Αdｍіп",
+    "Αdｍіｎ",
+    "Αdｍιn",
+    "Αdｍιո",
+    "Αdｍιп",
+    "Αdｍιｎ",
+    "ΑdｍᎥn",
+    "ΑdｍᎥո",
+    "ΑdｍᎥп",
+    "ΑdｍᎥｎ",
+    "Αdｍｉn",
+    "Αdｍｉո",
+    "Αdｍｉп",
+    "Αdｍｉｎ",
+    "Αԁmin",
+    "Αԁmiո",
+    "Αԁmiп",
+    "Αԁmiｎ",
+    "Αԁmіn",
+    "Αԁmіո",
+    "Αԁmіп",
+    "Αԁmіｎ",
+    "Αԁmιn",
+    "Αԁmιո",
+    "Αԁmιп",
+    "Αԁmιｎ",
+    "ΑԁmᎥn",
+    "ΑԁmᎥո",
+    "ΑԁmᎥп",
+    "ΑԁmᎥｎ",
+    "Αԁmｉn",
+    "Αԁmｉո",
+    "Αԁmｉп",
+    "Αԁmｉｎ",
+    "Αԁмin",
+    "Αԁмiո",
+    "Αԁмiп",
+    "Αԁмiｎ",
+    "Αԁміn",
+    "Αԁміո",
+    "Αԁміп",
+    "Αԁміｎ",
+    "Αԁмιn",
+    "Αԁмιո",
+    "Αԁмιп",
+    "Αԁмιｎ",
+    "ΑԁмᎥn",
+    "ΑԁмᎥո",
+    "ΑԁмᎥп",
+    "ΑԁмᎥｎ",
+    "Αԁмｉn",
+    "Αԁмｉո",
+    "Αԁмｉп",
+    "Αԁмｉｎ",
+    "Αԁⅿin",
+    "Αԁⅿiո",
+    "Αԁⅿiп",
+    "Αԁⅿiｎ",
+    "Αԁⅿіn",
+    "Αԁⅿіո",
+    "Αԁⅿіп",
+    "Αԁⅿіｎ",
+    "Αԁⅿιn",
+    "Αԁⅿιո",
+    "Αԁⅿιп",
+    "Αԁⅿιｎ",
+    "ΑԁⅿᎥn",
+    "ΑԁⅿᎥո",
+    "ΑԁⅿᎥп",
+    "ΑԁⅿᎥｎ",
+    "Αԁⅿｉn",
+    "Αԁⅿｉո",
+    "Αԁⅿｉп",
+    "Αԁⅿｉｎ",
+    "Αԁｍin",
+    "Αԁｍiո",
+    "Αԁｍiп",
+    "Αԁｍiｎ",
+    "Αԁｍіn",
+    "Αԁｍіո",
+    "Αԁｍіп",
+    "Αԁｍіｎ",
+    "Αԁｍιn",
+    "Αԁｍιո",
+    "Αԁｍιп",
+    "Αԁｍιｎ",
+    "ΑԁｍᎥn",
+    "ΑԁｍᎥո",
+    "ΑԁｍᎥп",
+    "ΑԁｍᎥｎ",
+    "Αԁｍｉn",
+    "Αԁｍｉո",
+    "Αԁｍｉп",
+    "Αԁｍｉｎ",
+    "Αⅾmin",
+    "Αⅾmiո",
+    "Αⅾmiп",
+    "Αⅾmiｎ",
+    "Αⅾmіn",
+    "Αⅾmіո",
+    "Αⅾmіп",
+    "Αⅾmіｎ",
+    "Αⅾmιn",
+    "Αⅾmιո",
+    "Αⅾmιп",
+    "Αⅾmιｎ",
+    "ΑⅾmᎥn",
+    "ΑⅾmᎥո",
+    "ΑⅾmᎥп",
+    "ΑⅾmᎥｎ",
+    "Αⅾmｉn",
+    "Αⅾmｉո",
+    "Αⅾmｉп",
+    "Αⅾmｉｎ",
+    "Αⅾмin",
+    "Αⅾмiո",
+    "Αⅾмiп",
+    "Αⅾмiｎ",
+    "Αⅾміn",
+    "Αⅾміո",
+    "Αⅾміп",
+    "Αⅾміｎ",
+    "Αⅾмιn",
+    "Αⅾмιո",
+    "Αⅾмιп",
+    "Αⅾмιｎ",
+    "ΑⅾмᎥn",
+    "ΑⅾмᎥո",
+    "ΑⅾмᎥп",
+    "ΑⅾмᎥｎ",
+    "Αⅾмｉn",
+    "Αⅾмｉո",
+    "Αⅾмｉп",
+    "Αⅾмｉｎ",
+    "Αⅾⅿin",
+    "Αⅾⅿiո",
+    "Αⅾⅿiп",
+    "Αⅾⅿiｎ",
+    "Αⅾⅿіn",
+    "Αⅾⅿіո",
+    "Αⅾⅿіп",
+    "Αⅾⅿіｎ",
+    "Αⅾⅿιn",
+    "Αⅾⅿιո",
+    "Αⅾⅿιп",
+    "Αⅾⅿιｎ",
+    "ΑⅾⅿᎥn",
+    "ΑⅾⅿᎥո",
+    "ΑⅾⅿᎥп",
+    "ΑⅾⅿᎥｎ",
+    "Αⅾⅿｉn",
+    "Αⅾⅿｉո",
+    "Αⅾⅿｉп",
+    "Αⅾⅿｉｎ",
+    "Αⅾｍin",
+    "Αⅾｍiո",
+    "Αⅾｍiп",
+    "Αⅾｍiｎ",
+    "Αⅾｍіn",
+    "Αⅾｍіո",
+    "Αⅾｍіп",
+    "Αⅾｍіｎ",
+    "Αⅾｍιn",
+    "Αⅾｍιո",
+    "Αⅾｍιп",
+    "Αⅾｍιｎ",
+    "ΑⅾｍᎥn",
+    "ΑⅾｍᎥո",
+    "ΑⅾｍᎥп",
+    "ΑⅾｍᎥｎ",
+    "Αⅾｍｉn",
+    "Αⅾｍｉո",
+    "Αⅾｍｉп",
+    "Αⅾｍｉｎ",
+    "Αｄmin",
+    "Αｄmiո",
+    "Αｄmiп",
+    "Αｄmiｎ",
+    "Αｄmіn",
+    "Αｄmіո",
+    "Αｄmіп",
+    "Αｄmіｎ",
+    "Αｄmιn",
+    "Αｄmιո",
+    "Αｄmιп",
+    "Αｄmιｎ",
+    "ΑｄmᎥn",
+    "ΑｄmᎥո",
+    "ΑｄmᎥп",
+    "ΑｄmᎥｎ",
+    "Αｄmｉn",
+    "Αｄmｉո",
+    "Αｄmｉп",
+    "Αｄmｉｎ",
+    "Αｄмin",
+    "Αｄмiո",
+    "Αｄмiп",
+    "Αｄмiｎ",
+    "Αｄміn",
+    "Αｄміո",
+    "Αｄміп",
+    "Αｄміｎ",
+    "Αｄмιn",
+    "Αｄмιո",
+    "Αｄмιп",
+    "Αｄмιｎ",
+    "ΑｄмᎥn",
+    "ΑｄмᎥո",
+    "ΑｄмᎥп",
+    "ΑｄмᎥｎ",
+    "Αｄмｉn",
+    "Αｄмｉո",
+    "Αｄмｉп",
+    "Αｄмｉｎ",
+    "Αｄⅿin",
+    "Αｄⅿiո",
+    "Αｄⅿiп",
+    "Αｄⅿiｎ",
+    "Αｄⅿіn",
+    "Αｄⅿіո",
+    "Αｄⅿіп",
+    "Αｄⅿіｎ",
+    "Αｄⅿιn",
+    "Αｄⅿιո",
+    "Αｄⅿιп",
+    "Αｄⅿιｎ",
+    "ΑｄⅿᎥn",
+    "ΑｄⅿᎥո",
+    "ΑｄⅿᎥп",
+    "ΑｄⅿᎥｎ",
+    "Αｄⅿｉn",
+    "Αｄⅿｉո",
+    "Αｄⅿｉп",
+    "Αｄⅿｉｎ",
+    "Αｄｍin",
+    "Αｄｍiո",
+    "Αｄｍiп",
+    "Αｄｍiｎ",
+    "Αｄｍіn",
+    "Αｄｍіո",
+    "Αｄｍіп",
+    "Αｄｍіｎ",
+    "Αｄｍιn",
+    "Αｄｍιո",
+    "Αｄｍιп",
+    "Αｄｍιｎ",
+    "ΑｄｍᎥn",
+    "ΑｄｍᎥո",
+    "ΑｄｍᎥп",
+    "ΑｄｍᎥｎ",
+    "Αｄｍｉn",
+    "Αｄｍｉո",
+    "Αｄｍｉп",
+    "Αｄｍｉｎ",
+    "Аdmin",
+    "Аdmiո",
+    "Аdmiп",
+    "Аdmiｎ",
+    "Аdmіn",
+    "Аdmіո",
+    "Аdmіп",
+    "Аdmіｎ",
+    "Аdmιn",
+    "Аdmιո",
+    "Аdmιп",
+    "Аdmιｎ",
+    "АdmᎥn",
+    "АdmᎥո",
+    "АdmᎥп",
+    "АdmᎥｎ",
+    "Аdmｉn",
+    "Аdmｉո",
+    "Аdmｉп",
+    "Аdmｉｎ",
+    "Аdмin",
+    "Аdмiո",
+    "Аdмiп",
+    "Аdмiｎ",
+    "Аdміn",
+    "Аdміո",
+    "Аdміп",
+    "Аdміｎ",
+    "Аdмιn",
+    "Аdмιո",
+    "Аdмιп",
+    "Аdмιｎ",
+    "АdмᎥn",
+    "АdмᎥո",
+    "АdмᎥп",
+    "АdмᎥｎ",
+    "Аdмｉn",
+    "Аdмｉո",
+    "Аdмｉп",
+    "Аdмｉｎ",
+    "Аdⅿin",
+    "Аdⅿiո",
+    "Аdⅿiп",
+    "Аdⅿiｎ",
+    "Аdⅿіn",
+    "Аdⅿіո",
+    "Аdⅿіп",
+    "Аdⅿіｎ",
+    "Аdⅿιn",
+    "Аdⅿιո",
+    "Аdⅿιп",
+    "Аdⅿιｎ",
+    "АdⅿᎥn",
+    "АdⅿᎥո",
+    "АdⅿᎥп",
+    "АdⅿᎥｎ",
+    "Аdⅿｉn",
+    "Аdⅿｉո",
+    "Аdⅿｉп",
+    "Аdⅿｉｎ",
+    "Аdｍin",
+    "Аdｍiո",
+    "Аdｍiп",
+    "Аdｍiｎ",
+    "Аdｍіn",
+    "Аdｍіո",
+    "Аdｍіп",
+    "Аdｍіｎ",
+    "Аdｍιn",
+    "Аdｍιո",
+    "Аdｍιп",
+    "Аdｍιｎ",
+    "АdｍᎥn",
+    "АdｍᎥո",
+    "АdｍᎥп",
+    "АdｍᎥｎ",
+    "Аdｍｉn",
+    "Аdｍｉո",
+    "Аdｍｉп",
+    "Аdｍｉｎ",
+    "Аԁmin",
+    "Аԁmiո",
+    "Аԁmiп",
+    "Аԁmiｎ",
+    "Аԁmіn",
+    "Аԁmіո",
+    "Аԁmіп",
+    "Аԁmіｎ",
+    "Аԁmιn",
+    "Аԁmιո",
+    "Аԁmιп",
+    "Аԁmιｎ",
+    "АԁmᎥn",
+    "АԁmᎥո",
+    "АԁmᎥп",
+    "АԁmᎥｎ",
+    "Аԁmｉn",
+    "Аԁmｉո",
+    "Аԁmｉп",
+    "Аԁmｉｎ",
+    "Аԁмin",
+    "Аԁмiո",
+    "Аԁмiп",
+    "Аԁмiｎ",
+    "Аԁміn",
+    "Аԁміո",
+    "Аԁміп",
+    "Аԁміｎ",
+    "Аԁмιn",
+    "Аԁмιո",
+    "Аԁмιп",
+    "Аԁмιｎ",
+    "АԁмᎥn",
+    "АԁмᎥո",
+    "АԁмᎥп",
+    "АԁмᎥｎ",
+    "Аԁмｉn",
+    "Аԁмｉո",
+    "Аԁмｉп",
+    "Аԁмｉｎ",
+    "Аԁⅿin",
+    "Аԁⅿiո",
+    "Аԁⅿiп",
+    "Аԁⅿiｎ",
+    "Аԁⅿіn",
+    "Аԁⅿіո",
+    "Аԁⅿіп",
+    "Аԁⅿіｎ",
+    "Аԁⅿιn",
+    "Аԁⅿιո",
+    "Аԁⅿιп",
+    "Аԁⅿιｎ",
+    "АԁⅿᎥn",
+    "АԁⅿᎥո",
+    "АԁⅿᎥп",
+    "АԁⅿᎥｎ",
+    "Аԁⅿｉn",
+    "Аԁⅿｉո",
+    "Аԁⅿｉп",
+    "Аԁⅿｉｎ",
+    "Аԁｍin",
+    "Аԁｍiո",
+    "Аԁｍiп",
+    "Аԁｍiｎ",
+    "Аԁｍіn",
+    "Аԁｍіո",
+    "Аԁｍіп",
+    "Аԁｍіｎ",
+    "Аԁｍιn",
+    "Аԁｍιո",
+    "Аԁｍιп",
+    "Аԁｍιｎ",
+    "АԁｍᎥn",
+    "АԁｍᎥո",
+    "АԁｍᎥп",
+    "АԁｍᎥｎ",
+    "Аԁｍｉn",
+    "Аԁｍｉո",
+    "Аԁｍｉп",
+    "Аԁｍｉｎ",
+    "Аⅾmin",
+    "Аⅾmiո",
+    "Аⅾmiп",
+    "Аⅾmiｎ",
+    "Аⅾmіn",
+    "Аⅾmіո",
+    "Аⅾmіп",
+    "Аⅾmіｎ",
+    "Аⅾmιn",
+    "Аⅾmιո",
+    "Аⅾmιп",
+    "Аⅾmιｎ",
+    "АⅾmᎥn",
+    "АⅾmᎥո",
+    "АⅾmᎥп",
+    "АⅾmᎥｎ",
+    "Аⅾmｉn",
+    "Аⅾmｉո",
+    "Аⅾmｉп",
+    "Аⅾmｉｎ",
+    "Аⅾмin",
+    "Аⅾмiո",
+    "Аⅾмiп",
+    "Аⅾмiｎ",
+    "Аⅾміn",
+    "Аⅾміո",
+    "Аⅾміп",
+    "Аⅾміｎ",
+    "Аⅾмιn",
+    "Аⅾмιո",
+    "Аⅾмιп",
+    "Аⅾмιｎ",
+    "АⅾмᎥn",
+    "АⅾмᎥո",
+    "АⅾмᎥп",
+    "АⅾмᎥｎ",
+    "Аⅾмｉn",
+    "Аⅾмｉո",
+    "Аⅾмｉп",
+    "Аⅾмｉｎ",
+    "Аⅾⅿin",
+    "Аⅾⅿiո",
+    "Аⅾⅿiп",
+    "Аⅾⅿiｎ",
+    "Аⅾⅿіn",
+    "Аⅾⅿіո",
+    "Аⅾⅿіп",
+    "Аⅾⅿіｎ",
+    "Аⅾⅿιn",
+    "Аⅾⅿιո",
+    "Аⅾⅿιп",
+    "Аⅾⅿιｎ",
+    "АⅾⅿᎥn",
+    "АⅾⅿᎥո",
+    "АⅾⅿᎥп",
+    "АⅾⅿᎥｎ",
+    "Аⅾⅿｉn",
+    "Аⅾⅿｉո",
+    "Аⅾⅿｉп",
+    "Аⅾⅿｉｎ",
+    "Аⅾｍin",
+    "Аⅾｍiո",
+    "Аⅾｍiп",
+    "Аⅾｍiｎ",
+    "Аⅾｍіn",
+    "Аⅾｍіո",
+    "Аⅾｍіп",
+    "Аⅾｍіｎ",
+    "Аⅾｍιn",
+    "Аⅾｍιո",
+    "Аⅾｍιп",
+    "Аⅾｍιｎ",
+    "АⅾｍᎥn",
+    "АⅾｍᎥո",
+    "АⅾｍᎥп",
+    "АⅾｍᎥｎ",
+    "Аⅾｍｉn",
+    "Аⅾｍｉո",
+    "Аⅾｍｉп",
+    "Аⅾｍｉｎ",
+    "Аｄmin",
+    "Аｄmiո",
+    "Аｄmiп",
+    "Аｄmiｎ",
+    "Аｄmіn",
+    "Аｄmіո",
+    "Аｄmіп",
+    "Аｄmіｎ",
+    "Аｄmιn",
+    "Аｄmιո",
+    "Аｄmιп",
+    "Аｄmιｎ",
+    "АｄmᎥn",
+    "АｄmᎥո",
+    "АｄmᎥп",
+    "АｄmᎥｎ",
+    "Аｄmｉn",
+    "Аｄmｉո",
+    "Аｄmｉп",
+    "Аｄmｉｎ",
+    "Аｄмin",
+    "Аｄмiո",
+    "Аｄмiп",
+    "Аｄмiｎ",
+    "Аｄміn",
+    "Аｄміո",
+    "Аｄміп",
+    "Аｄміｎ",
+    "Аｄмιn",
+    "Аｄмιո",
+    "Аｄмιп",
+    "Аｄмιｎ",
+    "АｄмᎥn",
+    "АｄмᎥո",
+    "АｄмᎥп",
+    "АｄмᎥｎ",
+    "Аｄмｉn",
+    "Аｄмｉո",
+    "Аｄмｉп",
+    "Аｄмｉｎ",
+    "Аｄⅿin",
+    "Аｄⅿiո",
+    "Аｄⅿiп",
+    "Аｄⅿiｎ",
+    "Аｄⅿіn",
+    "Аｄⅿіո",
+    "Аｄⅿіп",
+    "Аｄⅿіｎ",
+    "Аｄⅿιn",
+    "Аｄⅿιո",
+    "Аｄⅿιп",
+    "Аｄⅿιｎ",
+    "АｄⅿᎥn",
+    "АｄⅿᎥո",
+    "АｄⅿᎥп",
+    "АｄⅿᎥｎ",
+    "Аｄⅿｉn",
+    "Аｄⅿｉո",
+    "Аｄⅿｉп",
+    "Аｄⅿｉｎ",
+    "Аｄｍin",
+    "Аｄｍiո",
+    "Аｄｍiп",
+    "Аｄｍiｎ",
+    "Аｄｍіn",
+    "Аｄｍіո",
+    "Аｄｍіп",
+    "Аｄｍіｎ",
+    "Аｄｍιn",
+    "Аｄｍιո",
+    "Аｄｍιп",
+    "Аｄｍιｎ",
+    "АｄｍᎥn",
+    "АｄｍᎥո",
+    "АｄｍᎥп",
+    "АｄｍᎥｎ",
+    "Аｄｍｉn",
+    "Аｄｍｉո",
+    "Аｄｍｉп",
+    "Аｄｍｉｎ",
+    "Ꭺdmin",
+    "Ꭺdmiո",
+    "Ꭺdmiп",
+    "Ꭺdmiｎ",
+    "Ꭺdmіn",
+    "Ꭺdmіո",
+    "Ꭺdmіп",
+    "Ꭺdmіｎ",
+    "Ꭺdmιn",
+    "Ꭺdmιո",
+    "Ꭺdmιп",
+    "Ꭺdmιｎ",
+    "ᎪdmᎥn",
+    "ᎪdmᎥո",
+    "ᎪdmᎥп",
+    "ᎪdmᎥｎ",
+    "Ꭺdmｉn",
+    "Ꭺdmｉո",
+    "Ꭺdmｉп",
+    "Ꭺdmｉｎ",
+    "Ꭺdмin",
+    "Ꭺdмiո",
+    "Ꭺdмiп",
+    "Ꭺdмiｎ",
+    "Ꭺdміn",
+    "Ꭺdміո",
+    "Ꭺdміп",
+    "Ꭺdміｎ",
+    "Ꭺdмιn",
+    "Ꭺdмιո",
+    "Ꭺdмιп",
+    "Ꭺdмιｎ",
+    "ᎪdмᎥn",
+    "ᎪdмᎥո",
+    "ᎪdмᎥп",
+    "ᎪdмᎥｎ",
+    "Ꭺdмｉn",
+    "Ꭺdмｉո",
+    "Ꭺdмｉп",
+    "Ꭺdмｉｎ",
+    "Ꭺdⅿin",
+    "Ꭺdⅿiո",
+    "Ꭺdⅿiп",
+    "Ꭺdⅿiｎ",
+    "Ꭺdⅿіn",
+    "Ꭺdⅿіո",
+    "Ꭺdⅿіп",
+    "Ꭺdⅿіｎ",
+    "Ꭺdⅿιn",
+    "Ꭺdⅿιո",
+    "Ꭺdⅿιп",
+    "Ꭺdⅿιｎ",
+    "ᎪdⅿᎥn",
+    "ᎪdⅿᎥո",
+    "ᎪdⅿᎥп",
+    "ᎪdⅿᎥｎ",
+    "Ꭺdⅿｉn",
+    "Ꭺdⅿｉո",
+    "Ꭺdⅿｉп",
+    "Ꭺdⅿｉｎ",
+    "Ꭺdｍin",
+    "Ꭺdｍiո",
+    "Ꭺdｍiп",
+    "Ꭺdｍiｎ",
+    "Ꭺdｍіn",
+    "Ꭺdｍіո",
+    "Ꭺdｍіп",
+    "Ꭺdｍіｎ",
+    "Ꭺdｍιn",
+    "Ꭺdｍιո",
+    "Ꭺdｍιп",
+    "Ꭺdｍιｎ",
+    "ᎪdｍᎥn",
+    "ᎪdｍᎥո",
+    "ᎪdｍᎥп",
+    "ᎪdｍᎥｎ",
+    "Ꭺdｍｉn",
+    "Ꭺdｍｉո",
+    "Ꭺdｍｉп",
+    "Ꭺdｍｉｎ",
+    "Ꭺԁmin",
+    "Ꭺԁmiո",
+    "Ꭺԁmiп",
+    "Ꭺԁmiｎ",
+    "Ꭺԁmіn",
+    "Ꭺԁmіո",
+    "Ꭺԁmіп",
+    "Ꭺԁmіｎ",
+    "Ꭺԁmιn",
+    "Ꭺԁmιո",
+    "Ꭺԁmιп",
+    "Ꭺԁmιｎ",
+    "ᎪԁmᎥn",
+    "ᎪԁmᎥո",
+    "ᎪԁmᎥп",
+    "ᎪԁmᎥｎ",
+    "Ꭺԁmｉn",
+    "Ꭺԁmｉո",
+    "Ꭺԁmｉп",
+    "Ꭺԁmｉｎ",
+    "Ꭺԁмin",
+    "Ꭺԁмiո",
+    "Ꭺԁмiп",
+    "Ꭺԁмiｎ",
+    "Ꭺԁміn",
+    "Ꭺԁміո",
+    "Ꭺԁміп",
+    "Ꭺԁміｎ",
+    "Ꭺԁмιn",
+    "Ꭺԁмιո",
+    "Ꭺԁмιп",
+    "Ꭺԁмιｎ",
+    "ᎪԁмᎥn",
+    "ᎪԁмᎥո",
+    "ᎪԁмᎥп",
+    "ᎪԁмᎥｎ",
+    "Ꭺԁмｉn",
+    "Ꭺԁмｉո",
+    "Ꭺԁмｉп",
+    "Ꭺԁмｉｎ",
+    "Ꭺԁⅿin",
+    "Ꭺԁⅿiո",
+    "Ꭺԁⅿiп",
+    "Ꭺԁⅿiｎ",
+    "Ꭺԁⅿіn",
+    "Ꭺԁⅿіո",
+    "Ꭺԁⅿіп",
+    "Ꭺԁⅿіｎ",
+    "Ꭺԁⅿιn",
+    "Ꭺԁⅿιո",
+    "Ꭺԁⅿιп",
+    "Ꭺԁⅿιｎ",
+    "ᎪԁⅿᎥn",
+    "ᎪԁⅿᎥո",
+    "ᎪԁⅿᎥп",
+    "ᎪԁⅿᎥｎ",
+    "Ꭺԁⅿｉn",
+    "Ꭺԁⅿｉո",
+    "Ꭺԁⅿｉп",
+    "Ꭺԁⅿｉｎ",
+    "Ꭺԁｍin",
+    "Ꭺԁｍiո",
+    "Ꭺԁｍiп",
+    "Ꭺԁｍiｎ",
+    "Ꭺԁｍіn",
+    "Ꭺԁｍіո",
+    "Ꭺԁｍіп",
+    "Ꭺԁｍіｎ",
+    "Ꭺԁｍιn",
+    "Ꭺԁｍιո",
+    "Ꭺԁｍιп",
+    "Ꭺԁｍιｎ",
+    "ᎪԁｍᎥn",
+    "ᎪԁｍᎥո",
+    "ᎪԁｍᎥп",
+    "ᎪԁｍᎥｎ",
+    "Ꭺԁｍｉn",
+    "Ꭺԁｍｉո",
+    "Ꭺԁｍｉп",
+    "Ꭺԁｍｉｎ",
+    "Ꭺⅾmin",
+    "Ꭺⅾmiո",
+    "Ꭺⅾmiп",
+    "Ꭺⅾmiｎ",
+    "Ꭺⅾmіn",
+    "Ꭺⅾmіո",
+    "Ꭺⅾmіп",
+    "Ꭺⅾmіｎ",
+    "Ꭺⅾmιn",
+    "Ꭺⅾmιո",
+    "Ꭺⅾmιп",
+    "Ꭺⅾmιｎ",
+    "ᎪⅾmᎥn",
+    "ᎪⅾmᎥո",
+    "ᎪⅾmᎥп",
+    "ᎪⅾmᎥｎ",
+    "Ꭺⅾmｉn",
+    "Ꭺⅾmｉո",
+    "Ꭺⅾmｉп",
+    "Ꭺⅾmｉｎ",
+    "Ꭺⅾмin",
+    "Ꭺⅾмiո",
+    "Ꭺⅾмiп",
+    "Ꭺⅾмiｎ",
+    "Ꭺⅾміn",
+    "Ꭺⅾміո",
+    "Ꭺⅾміп",
+    "Ꭺⅾміｎ",
+    "Ꭺⅾмιn",
+    "Ꭺⅾмιո",
+    "Ꭺⅾмιп",
+    "Ꭺⅾмιｎ",
+    "ᎪⅾмᎥn",
+    "ᎪⅾмᎥո",
+    "ᎪⅾмᎥп",
+    "ᎪⅾмᎥｎ",
+    "Ꭺⅾмｉn",
+    "Ꭺⅾмｉո",
+    "Ꭺⅾмｉп",
+    "Ꭺⅾмｉｎ",
+    "Ꭺⅾⅿin",
+    "Ꭺⅾⅿiո",
+    "Ꭺⅾⅿiп",
+    "Ꭺⅾⅿiｎ",
+    "Ꭺⅾⅿіn",
+    "Ꭺⅾⅿіո",
+    "Ꭺⅾⅿіп",
+    "Ꭺⅾⅿіｎ",
+    "Ꭺⅾⅿιn",
+    "Ꭺⅾⅿιո",
+    "Ꭺⅾⅿιп",
+    "Ꭺⅾⅿιｎ",
+    "ᎪⅾⅿᎥn",
+    "ᎪⅾⅿᎥո",
+    "ᎪⅾⅿᎥп",
+    "ᎪⅾⅿᎥｎ",
+    "Ꭺⅾⅿｉn",
+    "Ꭺⅾⅿｉո",
+    "Ꭺⅾⅿｉп",
+    "Ꭺⅾⅿｉｎ",
+    "Ꭺⅾｍin",
+    "Ꭺⅾｍiո",
+    "Ꭺⅾｍiп",
+    "Ꭺⅾｍiｎ",
+    "Ꭺⅾｍіn",
+    "Ꭺⅾｍіո",
+    "Ꭺⅾｍіп",
+    "Ꭺⅾｍіｎ",
+    "Ꭺⅾｍιn",
+    "Ꭺⅾｍιո",
+    "Ꭺⅾｍιп",
+    "Ꭺⅾｍιｎ",
+    "ᎪⅾｍᎥn",
+    "ᎪⅾｍᎥո",
+    "ᎪⅾｍᎥп",
+    "ᎪⅾｍᎥｎ",
+    "Ꭺⅾｍｉn",
+    "Ꭺⅾｍｉո",
+    "Ꭺⅾｍｉп",
+    "Ꭺⅾｍｉｎ",
+    "Ꭺｄmin",
+    "Ꭺｄmiո",
+    "Ꭺｄmiп",
+    "Ꭺｄmiｎ",
+    "Ꭺｄmіn",
+    "Ꭺｄmіո",
+    "Ꭺｄmіп",
+    "Ꭺｄmіｎ",
+    "Ꭺｄmιn",
+    "Ꭺｄmιո",
+    "Ꭺｄmιп",
+    "Ꭺｄmιｎ",
+    "ᎪｄmᎥn",
+    "ᎪｄmᎥո",
+    "ᎪｄmᎥп",
+    "ᎪｄmᎥｎ",
+    "Ꭺｄmｉn",
+    "Ꭺｄmｉո",
+    "Ꭺｄmｉп",
+    "Ꭺｄmｉｎ",
+    "Ꭺｄмin",
+    "Ꭺｄмiո",
+    "Ꭺｄмiп",
+    "Ꭺｄмiｎ",
+    "Ꭺｄміn",
+    "Ꭺｄміո",
+    "Ꭺｄміп",
+    "Ꭺｄміｎ",
+    "Ꭺｄмιn",
+    "Ꭺｄмιո",
+    "Ꭺｄмιп",
+    "Ꭺｄмιｎ",
+    "ᎪｄмᎥn",
+    "ᎪｄмᎥո",
+    "ᎪｄмᎥп",
+    "ᎪｄмᎥｎ",
+    "Ꭺｄмｉn",
+    "Ꭺｄмｉո",
+    "Ꭺｄмｉп",
+    "Ꭺｄмｉｎ",
+    "Ꭺｄⅿin",
+    "Ꭺｄⅿiո",
+    "Ꭺｄⅿiп",
+    "Ꭺｄⅿiｎ",
+    "Ꭺｄⅿіn",
+    "Ꭺｄⅿіո",
+    "Ꭺｄⅿіп",
+    "Ꭺｄⅿіｎ",
+    "Ꭺｄⅿιn",
+    "Ꭺｄⅿιո",
+    "Ꭺｄⅿιп",
+    "Ꭺｄⅿιｎ",
+    "ᎪｄⅿᎥn",
+    "ᎪｄⅿᎥո",
+    "ᎪｄⅿᎥп",
+    "ᎪｄⅿᎥｎ",
+    "Ꭺｄⅿｉn",
+    "Ꭺｄⅿｉո",
+    "Ꭺｄⅿｉп",
+    "Ꭺｄⅿｉｎ",
+    "Ꭺｄｍin",
+    "Ꭺｄｍiո",
+    "Ꭺｄｍiп",
+    "Ꭺｄｍiｎ",
+    "Ꭺｄｍіn",
+    "Ꭺｄｍіո",
+    "Ꭺｄｍіп",
+    "Ꭺｄｍіｎ",
+    "Ꭺｄｍιn",
+    "Ꭺｄｍιո",
+    "Ꭺｄｍιп",
+    "Ꭺｄｍιｎ",
+    "ᎪｄｍᎥn",
+    "ᎪｄｍᎥո",
+    "ᎪｄｍᎥп",
+    "ᎪｄｍᎥｎ",
+    "Ꭺｄｍｉn",
+    "Ꭺｄｍｉո",
+    "Ꭺｄｍｉп",
+    "Ꭺｄｍｉｎ",
+    "Ａdmin",
+    "Ａdmiո",
+    "Ａdmiп",
+    "Ａdmiｎ",
+    "Ａdmіn",
+    "Ａdmіո",
+    "Ａdmіп",
+    "Ａdmіｎ",
+    "Ａdmιn",
+    "Ａdmιո",
+    "Ａdmιп",
+    "Ａdmιｎ",
+    "ＡdmᎥn",
+    "ＡdmᎥո",
+    "ＡdmᎥп",
+    "ＡdmᎥｎ",
+    "Ａdmｉn",
+    "Ａdmｉո",
+    "Ａdmｉп",
+    "Ａdmｉｎ",
+    "Ａdмin",
+    "Ａdмiո",
+    "Ａdмiп",
+    "Ａdмiｎ",
+    "Ａdміn",
+    "Ａdміո",
+    "Ａdміп",
+    "Ａdміｎ",
+    "Ａdмιn",
+    "Ａdмιո",
+    "Ａdмιп",
+    "Ａdмιｎ",
+    "ＡdмᎥn",
+    "ＡdмᎥո",
+    "ＡdмᎥп",
+    "ＡdмᎥｎ",
+    "Ａdмｉn",
+    "Ａdмｉո",
+    "Ａdмｉп",
+    "Ａdмｉｎ",
+    "Ａdⅿin",
+    "Ａdⅿiո",
+    "Ａdⅿiп",
+    "Ａdⅿiｎ",
+    "Ａdⅿіn",
+    "Ａdⅿіո",
+    "Ａdⅿіп",
+    "Ａdⅿіｎ",
+    "Ａdⅿιn",
+    "Ａdⅿιո",
+    "Ａdⅿιп",
+    "Ａdⅿιｎ",
+    "ＡdⅿᎥn",
+    "ＡdⅿᎥո",
+    "ＡdⅿᎥп",
+    "ＡdⅿᎥｎ",
+    "Ａdⅿｉn",
+    "Ａdⅿｉո",
+    "Ａdⅿｉп",
+    "Ａdⅿｉｎ",
+    "Ａdｍin",
+    "Ａdｍiո",
+    "Ａdｍiп",
+    "Ａdｍiｎ",
+    "Ａdｍіn",
+    "Ａdｍіո",
+    "Ａdｍіп",
+    "Ａdｍіｎ",
+    "Ａdｍιn",
+    "Ａdｍιո",
+    "Ａdｍιп",
+    "Ａdｍιｎ",
+    "ＡdｍᎥn",
+    "ＡdｍᎥո",
+    "ＡdｍᎥп",
+    "ＡdｍᎥｎ",
+    "Ａdｍｉn",
+    "Ａdｍｉո",
+    "Ａdｍｉп",
+    "Ａdｍｉｎ",
+    "Ａԁmin",
+    "Ａԁmiո",
+    "Ａԁmiп",
+    "Ａԁmiｎ",
+    "Ａԁmіn",
+    "Ａԁmіո",
+    "Ａԁmіп",
+    "Ａԁmіｎ",
+    "Ａԁmιn",
+    "Ａԁmιո",
+    "Ａԁmιп",
+    "Ａԁmιｎ",
+    "ＡԁmᎥn",
+    "ＡԁmᎥո",
+    "ＡԁmᎥп",
+    "ＡԁmᎥｎ",
+    "Ａԁmｉn",
+    "Ａԁmｉո",
+    "Ａԁmｉп",
+    "Ａԁmｉｎ",
+    "Ａԁмin",
+    "Ａԁмiո",
+    "Ａԁмiп",
+    "Ａԁмiｎ",
+    "Ａԁміn",
+    "Ａԁміո",
+    "Ａԁміп",
+    "Ａԁміｎ",
+    "Ａԁмιn",
+    "Ａԁмιո",
+    "Ａԁмιп",
+    "Ａԁмιｎ",
+    "ＡԁмᎥn",
+    "ＡԁмᎥո",
+    "ＡԁмᎥп",
+    "ＡԁмᎥｎ",
+    "Ａԁмｉn",
+    "Ａԁмｉո",
+    "Ａԁмｉп",
+    "Ａԁмｉｎ",
+    "Ａԁⅿin",
+    "Ａԁⅿiո",
+    "Ａԁⅿiп",
+    "Ａԁⅿiｎ",
+    "Ａԁⅿіn",
+    "Ａԁⅿіո",
+    "Ａԁⅿіп",
+    "Ａԁⅿіｎ",
+    "Ａԁⅿιn",
+    "Ａԁⅿιո",
+    "Ａԁⅿιп",
+    "Ａԁⅿιｎ",
+    "ＡԁⅿᎥn",
+    "ＡԁⅿᎥո",
+    "ＡԁⅿᎥп",
+    "ＡԁⅿᎥｎ",
+    "Ａԁⅿｉn",
+    "Ａԁⅿｉո",
+    "Ａԁⅿｉп",
+    "Ａԁⅿｉｎ",
+    "Ａԁｍin",
+    "Ａԁｍiո",
+    "Ａԁｍiп",
+    "Ａԁｍiｎ",
+    "Ａԁｍіn",
+    "Ａԁｍіո",
+    "Ａԁｍіп",
+    "Ａԁｍіｎ",
+    "Ａԁｍιn",
+    "Ａԁｍιո",
+    "Ａԁｍιп",
+    "Ａԁｍιｎ",
+    "ＡԁｍᎥn",
+    "ＡԁｍᎥո",
+    "ＡԁｍᎥп",
+    "ＡԁｍᎥｎ",
+    "Ａԁｍｉn",
+    "Ａԁｍｉո",
+    "Ａԁｍｉп",
+    "Ａԁｍｉｎ",
+    "Ａⅾmin",
+    "Ａⅾmiո",
+    "Ａⅾmiп",
+    "Ａⅾmiｎ",
+    "Ａⅾmіn",
+    "Ａⅾmіո",
+    "Ａⅾmіп",
+    "Ａⅾmіｎ",
+    "Ａⅾmιn",
+    "Ａⅾmιո",
+    "Ａⅾmιп",
+    "Ａⅾmιｎ",
+    "ＡⅾmᎥn",
+    "ＡⅾmᎥո",
+    "ＡⅾmᎥп",
+    "ＡⅾmᎥｎ",
+    "Ａⅾmｉn",
+    "Ａⅾmｉո",
+    "Ａⅾmｉп",
+    "Ａⅾmｉｎ",
+    "Ａⅾмin",
+    "Ａⅾмiո",
+    "Ａⅾмiп",
+    "Ａⅾмiｎ",
+    "Ａⅾміn",
+    "Ａⅾміո",
+    "Ａⅾміп",
+    "Ａⅾміｎ",
+    "Ａⅾмιn",
+    "Ａⅾмιո",
+    "Ａⅾмιп",
+    "Ａⅾмιｎ",
+    "ＡⅾмᎥn",
+    "ＡⅾмᎥո",
+    "ＡⅾмᎥп",
+    "ＡⅾмᎥｎ",
+    "Ａⅾмｉn",
+    "Ａⅾмｉո",
+    "Ａⅾмｉп",
+    "Ａⅾмｉｎ",
+    "Ａⅾⅿin",
+    "Ａⅾⅿiո",
+    "Ａⅾⅿiп",
+    "Ａⅾⅿiｎ",
+    "Ａⅾⅿіn",
+    "Ａⅾⅿіո",
+    "Ａⅾⅿіп",
+    "Ａⅾⅿіｎ",
+    "Ａⅾⅿιn",
+    "Ａⅾⅿιո",
+    "Ａⅾⅿιп",
+    "Ａⅾⅿιｎ",
+    "ＡⅾⅿᎥn",
+    "ＡⅾⅿᎥո",
+    "ＡⅾⅿᎥп",
+    "ＡⅾⅿᎥｎ",
+    "Ａⅾⅿｉn",
+    "Ａⅾⅿｉո",
+    "Ａⅾⅿｉп",
+    "Ａⅾⅿｉｎ",
+    "Ａⅾｍin",
+    "Ａⅾｍiո",
+    "Ａⅾｍiп",
+    "Ａⅾｍiｎ",
+    "Ａⅾｍіn",
+    "Ａⅾｍіո",
+    "Ａⅾｍіп",
+    "Ａⅾｍіｎ",
+    "Ａⅾｍιn",
+    "Ａⅾｍιո",
+    "Ａⅾｍιп",
+    "Ａⅾｍιｎ",
+    "ＡⅾｍᎥn",
+    "ＡⅾｍᎥո",
+    "ＡⅾｍᎥп",
+    "ＡⅾｍᎥｎ",
+    "Ａⅾｍｉn",
+    "Ａⅾｍｉո",
+    "Ａⅾｍｉп",
+    "Ａⅾｍｉｎ",
+    "Ａｄmin",
+    "Ａｄmiո",
+    "Ａｄmiп",
+    "Ａｄmiｎ",
+    "Ａｄmіn",
+    "Ａｄmіո",
+    "Ａｄmіп",
+    "Ａｄmіｎ",
+    "Ａｄmιn",
+    "Ａｄmιո",
+    "Ａｄmιп",
+    "Ａｄmιｎ",
+    "ＡｄmᎥn",
+    "ＡｄmᎥո",
+    "ＡｄmᎥп",
+    "ＡｄmᎥｎ",
+    "Ａｄmｉn",
+    "Ａｄmｉո",
+    "Ａｄmｉп",
+    "Ａｄmｉｎ",
+    "Ａｄмin",
+    "Ａｄмiո",
+    "Ａｄмiп",
+    "Ａｄмiｎ",
+    "Ａｄміn",
+    "Ａｄміո",
+    "Ａｄміп",
+    "Ａｄміｎ",
+    "Ａｄмιn",
+    "Ａｄмιո",
+    "Ａｄмιп",
+    "Ａｄмιｎ",
+    "ＡｄмᎥn",
+    "ＡｄмᎥո",
+    "ＡｄмᎥп",
+    "ＡｄмᎥｎ",
+    "Ａｄмｉn",
+    "Ａｄмｉո",
+    "Ａｄмｉп",
+    "Ａｄмｉｎ",
+    "Ａｄⅿin",
+    "Ａｄⅿiո",
+    "Ａｄⅿiп",
+    "Ａｄⅿiｎ",
+    "Ａｄⅿіn",
+    "Ａｄⅿіո",
+    "Ａｄⅿіп",
+    "Ａｄⅿіｎ",
+    "Ａｄⅿιn",
+    "Ａｄⅿιո",
+    "Ａｄⅿιп",
+    "Ａｄⅿιｎ",
+    "ＡｄⅿᎥn",
+    "ＡｄⅿᎥո",
+    "ＡｄⅿᎥп",
+    "ＡｄⅿᎥｎ",
+    "Ａｄⅿｉn",
+    "Ａｄⅿｉո",
+    "Ａｄⅿｉп",
+    "Ａｄⅿｉｎ",
+    "Ａｄｍin",
+    "Ａｄｍiո",
+    "Ａｄｍiп",
+    "Ａｄｍiｎ",
+    "Ａｄｍіn",
+    "Ａｄｍіո",
+    "Ａｄｍіп",
+    "Ａｄｍіｎ",
+    "Ａｄｍιn",
+    "Ａｄｍιո",
+    "Ａｄｍιп",
+    "Ａｄｍιｎ",
+    "ＡｄｍᎥn",
+    "ＡｄｍᎥո",
+    "ＡｄｍᎥп",
+    "ＡｄｍᎥｎ",
+    "Ａｄｍｉn",
+    "Ａｄｍｉո",
+    "Ａｄｍｉп",
+    "Ａｄｍｉｎ"
+  ],
+  "unicode_fuzz_cases": [
+    {
+      "raw": "Admin​",
+      "escaped": "Admin\\u200b",
+      "utf8_hex": "41646d696ee2808b",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌",
+      "escaped": "Admin\\u200c",
+      "utf8_hex": "41646d696ee2808c",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍",
+      "escaped": "Admin\\u200d",
+      "utf8_hex": "41646d696ee2808d",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿",
+      "escaped": "Admin\\ufeff",
+      "utf8_hex": "41646d696eefbbbf",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪",
+      "escaped": "Admin\\u202a",
+      "utf8_hex": "41646d696ee280aa",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫",
+      "escaped": "Admin\\u202b",
+      "utf8_hex": "41646d696ee280ab",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬",
+      "escaped": "Admin\\u202c",
+      "utf8_hex": "41646d696ee280ac",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭",
+      "escaped": "Admin\\u202d",
+      "utf8_hex": "41646d696ee280ad",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‮",
+      "escaped": "Admin\\u202e",
+      "utf8_hex": "41646d696ee280ae",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admiǹ",
+      "escaped": "Admin\\u0300",
+      "utf8_hex": "41646d696ecc80",
+      "nfc_length": 5,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiń",
+      "escaped": "Admin\\u0301",
+      "utf8_hex": "41646d696ecc81",
+      "nfc_length": 5,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin̈",
+      "escaped": "Admin\\u0308",
+      "utf8_hex": "41646d696ecc88",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiņ",
+      "escaped": "Admin\\u0327",
+      "utf8_hex": "41646d696ecca7",
+      "nfc_length": 5,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin🏻",
+      "escaped": "Admin\\U0001f3fb",
+      "utf8_hex": "41646d696ef09f8fbb",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin🏽",
+      "escaped": "Admin\\U0001f3fd",
+      "utf8_hex": "41646d696ef09f8fbd",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin️",
+      "escaped": "Admin\\ufe0f",
+      "utf8_hex": "41646d696eefb88f",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin ",
+      "escaped": "Admin\\u2028",
+      "utf8_hex": "41646d696ee280a8",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin ",
+      "escaped": "Admin\\u2029",
+      "utf8_hex": "41646d696ee280a9",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin​‌",
+      "escaped": "Admin\\u200b\\u200c",
+      "utf8_hex": "41646d696ee2808be2808c",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​‍",
+      "escaped": "Admin\\u200b\\u200d",
+      "utf8_hex": "41646d696ee2808be2808d",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​﻿",
+      "escaped": "Admin\\u200b\\ufeff",
+      "utf8_hex": "41646d696ee2808befbbbf",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​‪",
+      "escaped": "Admin\\u200b\\u202a",
+      "utf8_hex": "41646d696ee2808be280aa",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​‫",
+      "escaped": "Admin\\u200b\\u202b",
+      "utf8_hex": "41646d696ee2808be280ab",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​‬",
+      "escaped": "Admin\\u200b\\u202c",
+      "utf8_hex": "41646d696ee2808be280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​‭",
+      "escaped": "Admin\\u200b\\u202d",
+      "utf8_hex": "41646d696ee2808be280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​‮",
+      "escaped": "Admin\\u200b\\u202e",
+      "utf8_hex": "41646d696ee2808be280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​̀",
+      "escaped": "Admin\\u200b\\u0300",
+      "utf8_hex": "41646d696ee2808bcc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin​́",
+      "escaped": "Admin\\u200b\\u0301",
+      "utf8_hex": "41646d696ee2808bcc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin​̈",
+      "escaped": "Admin\\u200b\\u0308",
+      "utf8_hex": "41646d696ee2808bcc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin​̧",
+      "escaped": "Admin\\u200b\\u0327",
+      "utf8_hex": "41646d696ee2808bcca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin​🏻",
+      "escaped": "Admin\\u200b\\U0001f3fb",
+      "utf8_hex": "41646d696ee2808bf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin​🏽",
+      "escaped": "Admin\\u200b\\U0001f3fd",
+      "utf8_hex": "41646d696ee2808bf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin​️",
+      "escaped": "Admin\\u200b\\ufe0f",
+      "utf8_hex": "41646d696ee2808befb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin​ ",
+      "escaped": "Admin\\u200b\\u2028",
+      "utf8_hex": "41646d696ee2808be280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin​ ",
+      "escaped": "Admin\\u200b\\u2029",
+      "utf8_hex": "41646d696ee2808be280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‌‍",
+      "escaped": "Admin\\u200c\\u200d",
+      "utf8_hex": "41646d696ee2808ce2808d",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌﻿",
+      "escaped": "Admin\\u200c\\ufeff",
+      "utf8_hex": "41646d696ee2808cefbbbf",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌‪",
+      "escaped": "Admin\\u200c\\u202a",
+      "utf8_hex": "41646d696ee2808ce280aa",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌‫",
+      "escaped": "Admin\\u200c\\u202b",
+      "utf8_hex": "41646d696ee2808ce280ab",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌‬",
+      "escaped": "Admin\\u200c\\u202c",
+      "utf8_hex": "41646d696ee2808ce280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌‭",
+      "escaped": "Admin\\u200c\\u202d",
+      "utf8_hex": "41646d696ee2808ce280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌‮",
+      "escaped": "Admin\\u200c\\u202e",
+      "utf8_hex": "41646d696ee2808ce280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌̀",
+      "escaped": "Admin\\u200c\\u0300",
+      "utf8_hex": "41646d696ee2808ccc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‌́",
+      "escaped": "Admin\\u200c\\u0301",
+      "utf8_hex": "41646d696ee2808ccc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‌̈",
+      "escaped": "Admin\\u200c\\u0308",
+      "utf8_hex": "41646d696ee2808ccc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‌̧",
+      "escaped": "Admin\\u200c\\u0327",
+      "utf8_hex": "41646d696ee2808ccca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‌🏻",
+      "escaped": "Admin\\u200c\\U0001f3fb",
+      "utf8_hex": "41646d696ee2808cf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‌🏽",
+      "escaped": "Admin\\u200c\\U0001f3fd",
+      "utf8_hex": "41646d696ee2808cf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‌️",
+      "escaped": "Admin\\u200c\\ufe0f",
+      "utf8_hex": "41646d696ee2808cefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‌ ",
+      "escaped": "Admin\\u200c\\u2028",
+      "utf8_hex": "41646d696ee2808ce280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‌ ",
+      "escaped": "Admin\\u200c\\u2029",
+      "utf8_hex": "41646d696ee2808ce280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‍﻿",
+      "escaped": "Admin\\u200d\\ufeff",
+      "utf8_hex": "41646d696ee2808defbbbf",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍‪",
+      "escaped": "Admin\\u200d\\u202a",
+      "utf8_hex": "41646d696ee2808de280aa",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍‫",
+      "escaped": "Admin\\u200d\\u202b",
+      "utf8_hex": "41646d696ee2808de280ab",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍‬",
+      "escaped": "Admin\\u200d\\u202c",
+      "utf8_hex": "41646d696ee2808de280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍‭",
+      "escaped": "Admin\\u200d\\u202d",
+      "utf8_hex": "41646d696ee2808de280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍‮",
+      "escaped": "Admin\\u200d\\u202e",
+      "utf8_hex": "41646d696ee2808de280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍̀",
+      "escaped": "Admin\\u200d\\u0300",
+      "utf8_hex": "41646d696ee2808dcc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‍́",
+      "escaped": "Admin\\u200d\\u0301",
+      "utf8_hex": "41646d696ee2808dcc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‍̈",
+      "escaped": "Admin\\u200d\\u0308",
+      "utf8_hex": "41646d696ee2808dcc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‍̧",
+      "escaped": "Admin\\u200d\\u0327",
+      "utf8_hex": "41646d696ee2808dcca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‍🏻",
+      "escaped": "Admin\\u200d\\U0001f3fb",
+      "utf8_hex": "41646d696ee2808df09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‍🏽",
+      "escaped": "Admin\\u200d\\U0001f3fd",
+      "utf8_hex": "41646d696ee2808df09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‍️",
+      "escaped": "Admin\\u200d\\ufe0f",
+      "utf8_hex": "41646d696ee2808defb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‍ ",
+      "escaped": "Admin\\u200d\\u2028",
+      "utf8_hex": "41646d696ee2808de280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‍ ",
+      "escaped": "Admin\\u200d\\u2029",
+      "utf8_hex": "41646d696ee2808de280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin﻿‪",
+      "escaped": "Admin\\ufeff\\u202a",
+      "utf8_hex": "41646d696eefbbbfe280aa",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿‫",
+      "escaped": "Admin\\ufeff\\u202b",
+      "utf8_hex": "41646d696eefbbbfe280ab",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿‬",
+      "escaped": "Admin\\ufeff\\u202c",
+      "utf8_hex": "41646d696eefbbbfe280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿‭",
+      "escaped": "Admin\\ufeff\\u202d",
+      "utf8_hex": "41646d696eefbbbfe280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿‮",
+      "escaped": "Admin\\ufeff\\u202e",
+      "utf8_hex": "41646d696eefbbbfe280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿̀",
+      "escaped": "Admin\\ufeff\\u0300",
+      "utf8_hex": "41646d696eefbbbfcc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin﻿́",
+      "escaped": "Admin\\ufeff\\u0301",
+      "utf8_hex": "41646d696eefbbbfcc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin﻿̈",
+      "escaped": "Admin\\ufeff\\u0308",
+      "utf8_hex": "41646d696eefbbbfcc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin﻿̧",
+      "escaped": "Admin\\ufeff\\u0327",
+      "utf8_hex": "41646d696eefbbbfcca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin﻿🏻",
+      "escaped": "Admin\\ufeff\\U0001f3fb",
+      "utf8_hex": "41646d696eefbbbff09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin﻿🏽",
+      "escaped": "Admin\\ufeff\\U0001f3fd",
+      "utf8_hex": "41646d696eefbbbff09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin﻿️",
+      "escaped": "Admin\\ufeff\\ufe0f",
+      "utf8_hex": "41646d696eefbbbfefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin﻿ ",
+      "escaped": "Admin\\ufeff\\u2028",
+      "utf8_hex": "41646d696eefbbbfe280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin﻿ ",
+      "escaped": "Admin\\ufeff\\u2029",
+      "utf8_hex": "41646d696eefbbbfe280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‪‫",
+      "escaped": "Admin\\u202a\\u202b",
+      "utf8_hex": "41646d696ee280aae280ab",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪‬",
+      "escaped": "Admin\\u202a\\u202c",
+      "utf8_hex": "41646d696ee280aae280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪‭",
+      "escaped": "Admin\\u202a\\u202d",
+      "utf8_hex": "41646d696ee280aae280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪‮",
+      "escaped": "Admin\\u202a\\u202e",
+      "utf8_hex": "41646d696ee280aae280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪̀",
+      "escaped": "Admin\\u202a\\u0300",
+      "utf8_hex": "41646d696ee280aacc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‪́",
+      "escaped": "Admin\\u202a\\u0301",
+      "utf8_hex": "41646d696ee280aacc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‪̈",
+      "escaped": "Admin\\u202a\\u0308",
+      "utf8_hex": "41646d696ee280aacc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‪̧",
+      "escaped": "Admin\\u202a\\u0327",
+      "utf8_hex": "41646d696ee280aacca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‪🏻",
+      "escaped": "Admin\\u202a\\U0001f3fb",
+      "utf8_hex": "41646d696ee280aaf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‪🏽",
+      "escaped": "Admin\\u202a\\U0001f3fd",
+      "utf8_hex": "41646d696ee280aaf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‪️",
+      "escaped": "Admin\\u202a\\ufe0f",
+      "utf8_hex": "41646d696ee280aaefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‪ ",
+      "escaped": "Admin\\u202a\\u2028",
+      "utf8_hex": "41646d696ee280aae280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‪ ",
+      "escaped": "Admin\\u202a\\u2029",
+      "utf8_hex": "41646d696ee280aae280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‫‬",
+      "escaped": "Admin\\u202b\\u202c",
+      "utf8_hex": "41646d696ee280abe280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫‭",
+      "escaped": "Admin\\u202b\\u202d",
+      "utf8_hex": "41646d696ee280abe280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫‮",
+      "escaped": "Admin\\u202b\\u202e",
+      "utf8_hex": "41646d696ee280abe280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫̀",
+      "escaped": "Admin\\u202b\\u0300",
+      "utf8_hex": "41646d696ee280abcc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‫́",
+      "escaped": "Admin\\u202b\\u0301",
+      "utf8_hex": "41646d696ee280abcc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‫̈",
+      "escaped": "Admin\\u202b\\u0308",
+      "utf8_hex": "41646d696ee280abcc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‫̧",
+      "escaped": "Admin\\u202b\\u0327",
+      "utf8_hex": "41646d696ee280abcca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‫🏻",
+      "escaped": "Admin\\u202b\\U0001f3fb",
+      "utf8_hex": "41646d696ee280abf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‫🏽",
+      "escaped": "Admin\\u202b\\U0001f3fd",
+      "utf8_hex": "41646d696ee280abf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‫️",
+      "escaped": "Admin\\u202b\\ufe0f",
+      "utf8_hex": "41646d696ee280abefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‫ ",
+      "escaped": "Admin\\u202b\\u2028",
+      "utf8_hex": "41646d696ee280abe280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‫ ",
+      "escaped": "Admin\\u202b\\u2029",
+      "utf8_hex": "41646d696ee280abe280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‬‭",
+      "escaped": "Admin\\u202c\\u202d",
+      "utf8_hex": "41646d696ee280ace280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬‮",
+      "escaped": "Admin\\u202c\\u202e",
+      "utf8_hex": "41646d696ee280ace280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬̀",
+      "escaped": "Admin\\u202c\\u0300",
+      "utf8_hex": "41646d696ee280accc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬́",
+      "escaped": "Admin\\u202c\\u0301",
+      "utf8_hex": "41646d696ee280accc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬̈",
+      "escaped": "Admin\\u202c\\u0308",
+      "utf8_hex": "41646d696ee280accc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬̧",
+      "escaped": "Admin\\u202c\\u0327",
+      "utf8_hex": "41646d696ee280accca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬🏻",
+      "escaped": "Admin\\u202c\\U0001f3fb",
+      "utf8_hex": "41646d696ee280acf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‬🏽",
+      "escaped": "Admin\\u202c\\U0001f3fd",
+      "utf8_hex": "41646d696ee280acf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‬️",
+      "escaped": "Admin\\u202c\\ufe0f",
+      "utf8_hex": "41646d696ee280acefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬ ",
+      "escaped": "Admin\\u202c\\u2028",
+      "utf8_hex": "41646d696ee280ace280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‬ ",
+      "escaped": "Admin\\u202c\\u2029",
+      "utf8_hex": "41646d696ee280ace280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‭‮",
+      "escaped": "Admin\\u202d\\u202e",
+      "utf8_hex": "41646d696ee280ade280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭̀",
+      "escaped": "Admin\\u202d\\u0300",
+      "utf8_hex": "41646d696ee280adcc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭́",
+      "escaped": "Admin\\u202d\\u0301",
+      "utf8_hex": "41646d696ee280adcc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭̈",
+      "escaped": "Admin\\u202d\\u0308",
+      "utf8_hex": "41646d696ee280adcc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭̧",
+      "escaped": "Admin\\u202d\\u0327",
+      "utf8_hex": "41646d696ee280adcca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭🏻",
+      "escaped": "Admin\\u202d\\U0001f3fb",
+      "utf8_hex": "41646d696ee280adf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‭🏽",
+      "escaped": "Admin\\u202d\\U0001f3fd",
+      "utf8_hex": "41646d696ee280adf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‭️",
+      "escaped": "Admin\\u202d\\ufe0f",
+      "utf8_hex": "41646d696ee280adefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭ ",
+      "escaped": "Admin\\u202d\\u2028",
+      "utf8_hex": "41646d696ee280ade280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‭ ",
+      "escaped": "Admin\\u202d\\u2029",
+      "utf8_hex": "41646d696ee280ade280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‮̀",
+      "escaped": "Admin\\u202e\\u0300",
+      "utf8_hex": "41646d696ee280aecc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‮́",
+      "escaped": "Admin\\u202e\\u0301",
+      "utf8_hex": "41646d696ee280aecc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‮̈",
+      "escaped": "Admin\\u202e\\u0308",
+      "utf8_hex": "41646d696ee280aecc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‮̧",
+      "escaped": "Admin\\u202e\\u0327",
+      "utf8_hex": "41646d696ee280aecca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‮🏻",
+      "escaped": "Admin\\u202e\\U0001f3fb",
+      "utf8_hex": "41646d696ee280aef09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‮🏽",
+      "escaped": "Admin\\u202e\\U0001f3fd",
+      "utf8_hex": "41646d696ee280aef09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‮️",
+      "escaped": "Admin\\u202e\\ufe0f",
+      "utf8_hex": "41646d696ee280aeefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‮ ",
+      "escaped": "Admin\\u202e\\u2028",
+      "utf8_hex": "41646d696ee280aee280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‮ ",
+      "escaped": "Admin\\u202e\\u2029",
+      "utf8_hex": "41646d696ee280aee280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admiǹ́",
+      "escaped": "Admin\\u0300\\u0301",
+      "utf8_hex": "41646d696ecc80cc81",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiǹ̈",
+      "escaped": "Admin\\u0300\\u0308",
+      "utf8_hex": "41646d696ecc80cc88",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiņ̀",
+      "escaped": "Admin\\u0300\\u0327",
+      "utf8_hex": "41646d696ecc80cca7",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiǹ🏻",
+      "escaped": "Admin\\u0300\\U0001f3fb",
+      "utf8_hex": "41646d696ecc80f09f8fbb",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admiǹ🏽",
+      "escaped": "Admin\\u0300\\U0001f3fd",
+      "utf8_hex": "41646d696ecc80f09f8fbd",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admiǹ️",
+      "escaped": "Admin\\u0300\\ufe0f",
+      "utf8_hex": "41646d696ecc80efb88f",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiǹ ",
+      "escaped": "Admin\\u0300\\u2028",
+      "utf8_hex": "41646d696ecc80e280a8",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admiǹ ",
+      "escaped": "Admin\\u0300\\u2029",
+      "utf8_hex": "41646d696ecc80e280a9",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admiń̈",
+      "escaped": "Admin\\u0301\\u0308",
+      "utf8_hex": "41646d696ecc81cc88",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiņ́",
+      "escaped": "Admin\\u0301\\u0327",
+      "utf8_hex": "41646d696ecc81cca7",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiń🏻",
+      "escaped": "Admin\\u0301\\U0001f3fb",
+      "utf8_hex": "41646d696ecc81f09f8fbb",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admiń🏽",
+      "escaped": "Admin\\u0301\\U0001f3fd",
+      "utf8_hex": "41646d696ecc81f09f8fbd",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admiń️",
+      "escaped": "Admin\\u0301\\ufe0f",
+      "utf8_hex": "41646d696ecc81efb88f",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiń ",
+      "escaped": "Admin\\u0301\\u2028",
+      "utf8_hex": "41646d696ecc81e280a8",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admiń ",
+      "escaped": "Admin\\u0301\\u2029",
+      "utf8_hex": "41646d696ecc81e280a9",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admiņ̈",
+      "escaped": "Admin\\u0308\\u0327",
+      "utf8_hex": "41646d696ecc88cca7",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin̈🏻",
+      "escaped": "Admin\\u0308\\U0001f3fb",
+      "utf8_hex": "41646d696ecc88f09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin̈🏽",
+      "escaped": "Admin\\u0308\\U0001f3fd",
+      "utf8_hex": "41646d696ecc88f09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin̈️",
+      "escaped": "Admin\\u0308\\ufe0f",
+      "utf8_hex": "41646d696ecc88efb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin̈ ",
+      "escaped": "Admin\\u0308\\u2028",
+      "utf8_hex": "41646d696ecc88e280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin̈ ",
+      "escaped": "Admin\\u0308\\u2029",
+      "utf8_hex": "41646d696ecc88e280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admiņ🏻",
+      "escaped": "Admin\\u0327\\U0001f3fb",
+      "utf8_hex": "41646d696ecca7f09f8fbb",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admiņ🏽",
+      "escaped": "Admin\\u0327\\U0001f3fd",
+      "utf8_hex": "41646d696ecca7f09f8fbd",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admiņ️",
+      "escaped": "Admin\\u0327\\ufe0f",
+      "utf8_hex": "41646d696ecca7efb88f",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admiņ ",
+      "escaped": "Admin\\u0327\\u2028",
+      "utf8_hex": "41646d696ecca7e280a8",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admiņ ",
+      "escaped": "Admin\\u0327\\u2029",
+      "utf8_hex": "41646d696ecca7e280a9",
+      "nfc_length": 6,
+      "length_changed_by_nfc": true,
+      "categories": [
+        "Mn",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin🏻🏽",
+      "escaped": "Admin\\U0001f3fb\\U0001f3fd",
+      "utf8_hex": "41646d696ef09f8fbbf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin🏻️",
+      "escaped": "Admin\\U0001f3fb\\ufe0f",
+      "utf8_hex": "41646d696ef09f8fbbefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin🏻 ",
+      "escaped": "Admin\\U0001f3fb\\u2028",
+      "utf8_hex": "41646d696ef09f8fbbe280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin🏻 ",
+      "escaped": "Admin\\U0001f3fb\\u2029",
+      "utf8_hex": "41646d696ef09f8fbbe280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin🏽️",
+      "escaped": "Admin\\U0001f3fd\\ufe0f",
+      "utf8_hex": "41646d696ef09f8fbdefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin🏽 ",
+      "escaped": "Admin\\U0001f3fd\\u2028",
+      "utf8_hex": "41646d696ef09f8fbde280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin🏽 ",
+      "escaped": "Admin\\U0001f3fd\\u2029",
+      "utf8_hex": "41646d696ef09f8fbde280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Sk",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin️ ",
+      "escaped": "Admin\\ufe0f\\u2028",
+      "utf8_hex": "41646d696eefb88fe280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin️ ",
+      "escaped": "Admin\\ufe0f\\u2029",
+      "utf8_hex": "41646d696eefb88fe280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Mn",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin  ",
+      "escaped": "Admin\\u2028\\u2029",
+      "utf8_hex": "41646d696ee280a8e280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Zl",
+        "Zp"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/0c35c156-1eaf-4552-ad08-c85f4c50e828" />
+
 # Unicode Spoof Audit
 
 Generate Unicode spoofing corpora, benchmark detection strategies, and evaluate identifier security policies against reproducible attack surfaces.

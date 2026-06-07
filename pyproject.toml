@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unicode-spoof-audit"
+version = "0.1.0"
+description = "Unicode spoof-audit and policy-evaluation harness."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Josh" }]
+dependencies = [
+  "regex>=2023.12.25",
+  "confusable_homoglyphs>=3.3.1",
+  "pandas>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.setuptools]
+packages = ["corpus", "detectors", "benchmarks", "examples", "tests"]

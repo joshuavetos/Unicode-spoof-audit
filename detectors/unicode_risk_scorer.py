@@ -23,13 +23,18 @@ class UnicodeRiskScorer:
         """Return advisory risk results for a display-name string."""
         if not isinstance(input_str, str):
             return StrictIdentifierPolicy.result("", "", "REJECTED", "Not a string")
-        canonical = unicodedata.normalize("NFC", input_str).casefold().strip()
+        canonical = self.identifier_policy.canonicalize(input_str)
         if not input_str:
             return StrictIdentifierPolicy.result("", "", "REJECTED", "Empty display name")
+        if not canonical:
+            return StrictIdentifierPolicy.result(input_str, canonical, "REJECTED", "Blank display name")
         if contains_bidi_or_invisible(input_str):
             return StrictIdentifierPolicy.result(input_str, canonical, "REJECTED", "BiDi/Invisible detected", flags=["layout_control"])
 
         flags: list[str] = []
+        nfc_canonical = unicodedata.normalize("NFC", input_str).casefold().strip()
+        if canonical != nfc_canonical:
+            flags.append("compatibility_normalized")
         for character in input_str:
             category = unicodedata.category(character)
             if category in ILLEGAL_CATEGORIES:

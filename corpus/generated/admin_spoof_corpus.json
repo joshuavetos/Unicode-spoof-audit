@@ -1756,9 +1756,29 @@
       ]
     },
     {
+      "raw": "Admin⁠",
+      "escaped": "Admin\\u2060",
+      "utf8_hex": "41646d696ee281a0",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
       "raw": "Admin﻿",
       "escaped": "Admin\\ufeff",
       "utf8_hex": "41646d696eefbbbf",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜",
+      "escaped": "Admin\\u061c",
+      "utf8_hex": "41646d696ed89c",
       "nfc_length": 6,
       "length_changed_by_nfc": false,
       "categories": [
@@ -1809,6 +1829,46 @@
       "raw": "Admin‮",
       "escaped": "Admin\\u202e",
       "utf8_hex": "41646d696ee280ae",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁦",
+      "escaped": "Admin\\u2066",
+      "utf8_hex": "41646d696ee281a6",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁧",
+      "escaped": "Admin\\u2067",
+      "utf8_hex": "41646d696ee281a7",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁨",
+      "escaped": "Admin\\u2068",
+      "utf8_hex": "41646d696ee281a8",
+      "nfc_length": 6,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁩",
+      "escaped": "Admin\\u2069",
+      "utf8_hex": "41646d696ee281a9",
       "nfc_length": 6,
       "length_changed_by_nfc": false,
       "categories": [
@@ -1902,6 +1962,28 @@
       "nfc_length": 6,
       "length_changed_by_nfc": false,
       "categories": [
+    {
+      "raw": "Admin​⁠",
+      "escaped": "Admin\\u200b\\u2060",
+      "utf8_hex": "41646d696ee2808be281a0",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​؜",
+      "escaped": "Admin\\u200b\\u061c",
+      "utf8_hex": "41646d696ee2808bd89c",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
         "Zp"
       ]
     },
@@ -1972,6 +2054,50 @@
       ]
     },
     {
+    {
+      "raw": "Admin​⁦",
+      "escaped": "Admin\\u200b\\u2066",
+      "utf8_hex": "41646d696ee2808be281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​⁧",
+      "escaped": "Admin\\u200b\\u2067",
+      "utf8_hex": "41646d696ee2808be281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​⁨",
+      "escaped": "Admin\\u200b\\u2068",
+      "utf8_hex": "41646d696ee2808be281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin​⁩",
+      "escaped": "Admin\\u200b\\u2069",
+      "utf8_hex": "41646d696ee2808be281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
       "raw": "Admin​‭",
       "escaped": "Admin\\u200b\\u202d",
       "utf8_hex": "41646d696ee2808be280ad",
@@ -2078,6 +2204,28 @@
       "length_changed_by_nfc": false,
       "categories": [
         "Cf",
+    {
+      "raw": "Admin‌⁠",
+      "escaped": "Admin\\u200c\\u2060",
+      "utf8_hex": "41646d696ee2808ce281a0",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌؜",
+      "escaped": "Admin\\u200c\\u061c",
+      "utf8_hex": "41646d696ee2808cd89c",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
         "Zl"
       ]
     },
@@ -2148,6 +2296,50 @@
       ]
     },
     {
+    {
+      "raw": "Admin‌⁦",
+      "escaped": "Admin\\u200c\\u2066",
+      "utf8_hex": "41646d696ee2808ce281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌⁧",
+      "escaped": "Admin\\u200c\\u2067",
+      "utf8_hex": "41646d696ee2808ce281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌⁨",
+      "escaped": "Admin\\u200c\\u2068",
+      "utf8_hex": "41646d696ee2808ce281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‌⁩",
+      "escaped": "Admin\\u200c\\u2069",
+      "utf8_hex": "41646d696ee2808ce281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
       "raw": "Admin‌‭",
       "escaped": "Admin\\u200c\\u202d",
       "utf8_hex": "41646d696ee2808ce280ad",
@@ -2243,6 +2435,28 @@
       "length_changed_by_nfc": false,
       "categories": [
         "Cf",
+    {
+      "raw": "Admin‍⁠",
+      "escaped": "Admin\\u200d\\u2060",
+      "utf8_hex": "41646d696ee2808de281a0",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍؜",
+      "escaped": "Admin\\u200d\\u061c",
+      "utf8_hex": "41646d696ee2808dd89c",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
         "Mn"
       ]
     },
@@ -2303,6 +2517,50 @@
     },
     {
       "raw": "Admin‍‬",
+    {
+      "raw": "Admin‍⁦",
+      "escaped": "Admin\\u200d\\u2066",
+      "utf8_hex": "41646d696ee2808de281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍⁧",
+      "escaped": "Admin\\u200d\\u2067",
+      "utf8_hex": "41646d696ee2808de281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍⁨",
+      "escaped": "Admin\\u200d\\u2068",
+      "utf8_hex": "41646d696ee2808de281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‍⁩",
+      "escaped": "Admin\\u200d\\u2069",
+      "utf8_hex": "41646d696ee2808de281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
       "escaped": "Admin\\u200d\\u202c",
       "utf8_hex": "41646d696ee2808de280ac",
       "nfc_length": 7,
@@ -2403,7 +2661,97 @@
     {
       "raw": "Admin‍️",
       "escaped": "Admin\\u200d\\ufe0f",
-      "utf8_hex": "41646d696ee2808defb88f",
+      "raw": "Admin⁠﻿",
+      "escaped": "Admin\\u2060\\ufeff",
+      "utf8_hex": "41646d696ee281a0efbbbf",
+      "categories": [
+        "Cf",
+      "raw": "Admin⁠؜",
+      "escaped": "Admin\\u2060\\u061c",
+      "utf8_hex": "41646d696ee281a0d89c",
+    {
+      "raw": "Admin⁠‪",
+      "escaped": "Admin\\u2060\\u202a",
+      "utf8_hex": "41646d696ee281a0e280aa",
+      "raw": "Admin⁠‫",
+      "escaped": "Admin\\u2060\\u202b",
+      "utf8_hex": "41646d696ee281a0e280ab",
+      "categories": [
+        "Cf",
+      "raw": "Admin⁠‬",
+      "escaped": "Admin\\u2060\\u202c",
+      "utf8_hex": "41646d696ee281a0e280ac",
+    {
+      "raw": "Admin⁠‭",
+      "escaped": "Admin\\u2060\\u202d",
+      "utf8_hex": "41646d696ee281a0e280ad",
+        "Cf"
+      "raw": "Admin⁠‮",
+      "escaped": "Admin\\u2060\\u202e",
+      "utf8_hex": "41646d696ee281a0e280ae",
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁠⁦",
+      "escaped": "Admin\\u2060\\u2066",
+      "utf8_hex": "41646d696ee281a0e281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁠⁧",
+      "escaped": "Admin\\u2060\\u2067",
+      "utf8_hex": "41646d696ee281a0e281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁠⁨",
+      "escaped": "Admin\\u2060\\u2068",
+      "utf8_hex": "41646d696ee281a0e281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁠⁩",
+      "escaped": "Admin\\u2060\\u2069",
+      "utf8_hex": "41646d696ee281a0e281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin⁠̀",
+      "escaped": "Admin\\u2060\\u0300",
+      "utf8_hex": "41646d696ee281a0cc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁠́",
+      "escaped": "Admin\\u2060\\u0301",
+      "utf8_hex": "41646d696ee281a0cc81",
+        "Mn"
+      "raw": "Admin⁠̈",
+      "escaped": "Admin\\u2060\\u0308",
+      "utf8_hex": "41646d696ee281a0cc88",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
       "categories": [
@@ -2412,9 +2760,53 @@
       ]
     },
     {
-      "raw": "Admin‍ ",
-      "escaped": "Admin\\u200d\\u2028",
-      "utf8_hex": "41646d696ee2808de280a8",
+      "raw": "Admin⁠̧",
+      "escaped": "Admin\\u2060\\u0327",
+      "utf8_hex": "41646d696ee281a0cca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁠🏻",
+      "escaped": "Admin\\u2060\\U0001f3fb",
+      "utf8_hex": "41646d696ee281a0f09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin⁠🏽",
+      "escaped": "Admin\\u2060\\U0001f3fd",
+      "utf8_hex": "41646d696ee281a0f09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin⁠️",
+      "escaped": "Admin\\u2060\\ufe0f",
+      "utf8_hex": "41646d696ee281a0efb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁠ ",
+      "escaped": "Admin\\u2060\\u2028",
+      "utf8_hex": "41646d696ee281a0e280a8",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
       "categories": [
@@ -2423,14 +2815,25 @@
       ]
     },
     {
-      "raw": "Admin‍ ",
-      "escaped": "Admin\\u200d\\u2029",
-      "utf8_hex": "41646d696ee2808de280a9",
+      "raw": "Admin⁠ ",
+      "escaped": "Admin\\u2060\\u2029",
+      "utf8_hex": "41646d696ee281a0e280a9",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
       "categories": [
         "Cf",
         "Zp"
+      ]
+    },
+    {
+      "raw": "Admin﻿؜",
+      "escaped": "Admin\\ufeff\\u061c",
+      "utf8_hex": "41646d696eefbbbfd89c",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
       ]
     },
     {
@@ -2481,6 +2884,50 @@
       "raw": "Admin﻿‮",
       "escaped": "Admin\\ufeff\\u202e",
       "utf8_hex": "41646d696eefbbbfe280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿⁦",
+      "escaped": "Admin\\ufeff\\u2066",
+      "utf8_hex": "41646d696eefbbbfe281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿⁧",
+      "escaped": "Admin\\ufeff\\u2067",
+      "utf8_hex": "41646d696eefbbbfe281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿⁨",
+      "escaped": "Admin\\ufeff\\u2068",
+      "utf8_hex": "41646d696eefbbbfe281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin﻿⁩",
+      "escaped": "Admin\\ufeff\\u2069",
+      "utf8_hex": "41646d696eefbbbfe281a9",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
       "categories": [
@@ -2588,6 +3035,204 @@
       ]
     },
     {
+      "raw": "Admin؜‪",
+      "escaped": "Admin\\u061c\\u202a",
+      "utf8_hex": "41646d696ed89ce280aa",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜‫",
+      "escaped": "Admin\\u061c\\u202b",
+      "utf8_hex": "41646d696ed89ce280ab",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜‬",
+      "escaped": "Admin\\u061c\\u202c",
+      "utf8_hex": "41646d696ed89ce280ac",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜‭",
+      "escaped": "Admin\\u061c\\u202d",
+      "utf8_hex": "41646d696ed89ce280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜‮",
+      "escaped": "Admin\\u061c\\u202e",
+      "utf8_hex": "41646d696ed89ce280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜⁦",
+      "escaped": "Admin\\u061c\\u2066",
+      "utf8_hex": "41646d696ed89ce281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜⁧",
+      "escaped": "Admin\\u061c\\u2067",
+      "utf8_hex": "41646d696ed89ce281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜⁨",
+      "escaped": "Admin\\u061c\\u2068",
+      "utf8_hex": "41646d696ed89ce281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜⁩",
+      "escaped": "Admin\\u061c\\u2069",
+      "utf8_hex": "41646d696ed89ce281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin؜̀",
+      "escaped": "Admin\\u061c\\u0300",
+      "utf8_hex": "41646d696ed89ccc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin؜́",
+      "escaped": "Admin\\u061c\\u0301",
+      "utf8_hex": "41646d696ed89ccc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin؜̈",
+      "escaped": "Admin\\u061c\\u0308",
+      "utf8_hex": "41646d696ed89ccc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin؜̧",
+      "escaped": "Admin\\u061c\\u0327",
+      "utf8_hex": "41646d696ed89ccca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin؜🏻",
+      "escaped": "Admin\\u061c\\U0001f3fb",
+      "utf8_hex": "41646d696ed89cf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin؜🏽",
+      "escaped": "Admin\\u061c\\U0001f3fd",
+      "utf8_hex": "41646d696ed89cf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin؜️",
+      "escaped": "Admin\\u061c\\ufe0f",
+      "utf8_hex": "41646d696ed89cefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin؜ ",
+      "escaped": "Admin\\u061c\\u2028",
+      "utf8_hex": "41646d696ed89ce280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin؜ ",
+      "escaped": "Admin\\u061c\\u2029",
+      "utf8_hex": "41646d696ed89ce280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
       "raw": "Admin‪‫",
       "escaped": "Admin\\u202a\\u202b",
       "utf8_hex": "41646d696ee280aae280ab",
@@ -2612,7 +3257,9 @@
     {
       "raw": "Admin‪‭",
       "escaped": "Admin\\u202a\\u202d",
-      "utf8_hex": "41646d696ee280aae280ad",
+      "raw": "Admin‪‮",
+      "escaped": "Admin\\u202a\\u202e",
+      "utf8_hex": "41646d696ee280aae280ae",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
       "categories": [
@@ -2621,9 +3268,42 @@
       ]
     },
     {
-      "raw": "Admin‪‮",
-      "escaped": "Admin\\u202a\\u202e",
-      "utf8_hex": "41646d696ee280aae280ae",
+      "raw": "Admin‪⁦",
+      "escaped": "Admin\\u202a\\u2066",
+      "utf8_hex": "41646d696ee280aae281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪⁧",
+      "escaped": "Admin\\u202a\\u2067",
+      "utf8_hex": "41646d696ee280aae281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪⁨",
+      "escaped": "Admin\\u202a\\u2068",
+      "utf8_hex": "41646d696ee280aae281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‪⁩",
+      "escaped": "Admin\\u202a\\u2069",
+      "utf8_hex": "41646d696ee280aae281a9",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
       "categories": [
@@ -2764,6 +3444,50 @@
       ]
     },
     {
+      "raw": "Admin‫⁦",
+      "escaped": "Admin\\u202b\\u2066",
+      "utf8_hex": "41646d696ee280abe281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫⁧",
+      "escaped": "Admin\\u202b\\u2067",
+      "utf8_hex": "41646d696ee280abe281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫⁨",
+      "escaped": "Admin\\u202b\\u2068",
+      "utf8_hex": "41646d696ee280abe281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‫⁩",
+      "escaped": "Admin\\u202b\\u2069",
+      "utf8_hex": "41646d696ee280abe281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
       "raw": "Admin‫̀",
       "escaped": "Admin\\u202b\\u0300",
       "utf8_hex": "41646d696ee280abcc80",
@@ -2846,6 +3570,702 @@
       "utf8_hex": "41646d696ee280abe280a8",
       "nfc_length": 7,
       "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‫ ",
+      "escaped": "Admin\\u202b\\u2029",
+      "utf8_hex": "41646d696ee280abe280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‬‭",
+      "escaped": "Admin\\u202c\\u202d",
+      "utf8_hex": "41646d696ee280ace280ad",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬‮",
+      "escaped": "Admin\\u202c\\u202e",
+      "utf8_hex": "41646d696ee280ace280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬⁦",
+      "escaped": "Admin\\u202c\\u2066",
+      "utf8_hex": "41646d696ee280ace281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬⁧",
+      "escaped": "Admin\\u202c\\u2067",
+      "utf8_hex": "41646d696ee280ace281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬⁨",
+      "escaped": "Admin\\u202c\\u2068",
+      "utf8_hex": "41646d696ee280ace281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬⁩",
+      "escaped": "Admin\\u202c\\u2069",
+      "utf8_hex": "41646d696ee280ace281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‬̀",
+      "escaped": "Admin\\u202c\\u0300",
+      "utf8_hex": "41646d696ee280accc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬́",
+      "escaped": "Admin\\u202c\\u0301",
+      "utf8_hex": "41646d696ee280accc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬̈",
+      "escaped": "Admin\\u202c\\u0308",
+      "utf8_hex": "41646d696ee280accc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬̧",
+      "escaped": "Admin\\u202c\\u0327",
+      "utf8_hex": "41646d696ee280accca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬🏻",
+      "escaped": "Admin\\u202c\\U0001f3fb",
+      "utf8_hex": "41646d696ee280acf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‬🏽",
+      "escaped": "Admin\\u202c\\U0001f3fd",
+      "utf8_hex": "41646d696ee280acf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‬️",
+      "escaped": "Admin\\u202c\\ufe0f",
+      "utf8_hex": "41646d696ee280acefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‬ ",
+      "escaped": "Admin\\u202c\\u2028",
+      "utf8_hex": "41646d696ee280ace280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‬ ",
+      "escaped": "Admin\\u202c\\u2029",
+      "utf8_hex": "41646d696ee280ace280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‭‮",
+      "escaped": "Admin\\u202d\\u202e",
+      "utf8_hex": "41646d696ee280ade280ae",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭⁦",
+      "escaped": "Admin\\u202d\\u2066",
+      "utf8_hex": "41646d696ee280ade281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭⁧",
+      "escaped": "Admin\\u202d\\u2067",
+      "utf8_hex": "41646d696ee280ade281a7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭⁨",
+      "escaped": "Admin\\u202d\\u2068",
+      "utf8_hex": "41646d696ee280ade281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭⁩",
+      "escaped": "Admin\\u202d\\u2069",
+      "utf8_hex": "41646d696ee280ade281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‭̀",
+      "escaped": "Admin\\u202d\\u0300",
+      "utf8_hex": "41646d696ee280adcc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭́",
+      "escaped": "Admin\\u202d\\u0301",
+      "utf8_hex": "41646d696ee280adcc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭̈",
+      "escaped": "Admin\\u202d\\u0308",
+      "utf8_hex": "41646d696ee280adcc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭̧",
+      "escaped": "Admin\\u202d\\u0327",
+      "utf8_hex": "41646d696ee280adcca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭🏻",
+      "escaped": "Admin\\u202d\\U0001f3fb",
+      "utf8_hex": "41646d696ee280adf09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‭🏽",
+      "escaped": "Admin\\u202d\\U0001f3fd",
+      "utf8_hex": "41646d696ee280adf09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin‭️",
+      "escaped": "Admin\\u202d\\ufe0f",
+      "utf8_hex": "41646d696ee280adefb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin‭ ",
+      "escaped": "Admin\\u202d\\u2028",
+      "utf8_hex": "41646d696ee280ade280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zl"
+      ]
+    },
+    {
+      "raw": "Admin‭ ",
+      "escaped": "Admin\\u202d\\u2029",
+      "utf8_hex": "41646d696ee280ade280a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Zp"
+      ]
+    },
+    {
+      "raw": "Admin‮⁦",
+      "escaped": "Admin\\u202e\\u2066",
+      "utf8_hex": "41646d696ee280aee281a6",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‮⁧",
+      "escaped": "Admin\\u202e\\u2067",
+      "utf8_hex": "41646d696ee280aee281a7",
+      "categories": [
+        "Cf",
+      "raw": "Admin‮⁨",
+      "escaped": "Admin\\u202e\\u2068",
+      "utf8_hex": "41646d696ee280aee281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‮⁩",
+      "escaped": "Admin\\u202e\\u2069",
+      "utf8_hex": "41646d696ee280aee281a9",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Cf"
+      ]
+    },
+    {
+      "raw": "Admin‮̀",
+      "escaped": "Admin\\u202e\\u0300",
+      "utf8_hex": "41646d696ee280aecc80",
+    {
+      "raw": "Admin‮́",
+      "escaped": "Admin\\u202e\\u0301",
+      "utf8_hex": "41646d696ee280aecc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin‮̈",
+      "escaped": "Admin\\u202e\\u0308",
+      "utf8_hex": "41646d696ee280aecc88",
+    {
+      "raw": "Admin‮̧",
+      "escaped": "Admin\\u202e\\u0327",
+      "utf8_hex": "41646d696ee280aecca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin‮🏻",
+      "escaped": "Admin\\u202e\\U0001f3fb",
+      "utf8_hex": "41646d696ee280aef09f8fbb",
+    {
+      "raw": "Admin‮🏽",
+      "escaped": "Admin\\u202e\\U0001f3fd",
+      "utf8_hex": "41646d696ee280aef09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin‮️",
+      "escaped": "Admin\\u202e\\ufe0f",
+      "utf8_hex": "41646d696ee280aeefb88f",
+    {
+      "raw": "Admin‮ ",
+      "escaped": "Admin\\u202e\\u2028",
+      "utf8_hex": "41646d696ee280aee280a8",
+      "raw": "Admin‮ ",
+      "escaped": "Admin\\u202e\\u2029",
+      "utf8_hex": "41646d696ee280aee280a9",
+      "categories": [
+        "Cf",
+      "raw": "Admin⁦⁧",
+      "escaped": "Admin\\u2066\\u2067",
+      "utf8_hex": "41646d696ee281a6e281a7",
+    {
+      "raw": "Admin⁦⁨",
+      "escaped": "Admin\\u2066\\u2068",
+      "utf8_hex": "41646d696ee281a6e281a8",
+      "raw": "Admin⁦⁩",
+      "escaped": "Admin\\u2066\\u2069",
+      "utf8_hex": "41646d696ee281a6e281a9",
+      "categories": [
+        "Cf",
+      "raw": "Admin⁦̀",
+      "escaped": "Admin\\u2066\\u0300",
+      "utf8_hex": "41646d696ee281a6cc80",
+    {
+      "raw": "Admin⁦́",
+      "escaped": "Admin\\u2066\\u0301",
+      "utf8_hex": "41646d696ee281a6cc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁦̈",
+      "escaped": "Admin\\u2066\\u0308",
+      "utf8_hex": "41646d696ee281a6cc88",
+    {
+      "raw": "Admin⁦̧",
+      "escaped": "Admin\\u2066\\u0327",
+      "utf8_hex": "41646d696ee281a6cca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁦🏻",
+      "escaped": "Admin\\u2066\\U0001f3fb",
+      "utf8_hex": "41646d696ee281a6f09f8fbb",
+    {
+      "raw": "Admin⁦🏽",
+      "escaped": "Admin\\u2066\\U0001f3fd",
+      "utf8_hex": "41646d696ee281a6f09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁦️",
+      "escaped": "Admin\\u2066\\ufe0f",
+      "utf8_hex": "41646d696ee281a6efb88f",
+    {
+      "raw": "Admin⁦ ",
+      "escaped": "Admin\\u2066\\u2028",
+      "utf8_hex": "41646d696ee281a6e280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁦ ",
+      "escaped": "Admin\\u2066\\u2029",
+      "utf8_hex": "41646d696ee281a6e280a9",
+    {
+      "raw": "Admin⁧⁨",
+      "escaped": "Admin\\u2067\\u2068",
+      "utf8_hex": "41646d696ee281a7e281a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁧⁩",
+      "escaped": "Admin\\u2067\\u2069",
+      "utf8_hex": "41646d696ee281a7e281a9",
+    {
+      "raw": "Admin⁧̀",
+      "escaped": "Admin\\u2067\\u0300",
+      "utf8_hex": "41646d696ee281a7cc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁧́",
+      "escaped": "Admin\\u2067\\u0301",
+      "utf8_hex": "41646d696ee281a7cc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁧̈",
+      "escaped": "Admin\\u2067\\u0308",
+      "utf8_hex": "41646d696ee281a7cc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁧̧",
+      "escaped": "Admin\\u2067\\u0327",
+      "utf8_hex": "41646d696ee281a7cca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁧🏻",
+      "escaped": "Admin\\u2067\\U0001f3fb",
+      "utf8_hex": "41646d696ee281a7f09f8fbb",
+    {
+      "raw": "Admin⁧🏽",
+      "escaped": "Admin\\u2067\\U0001f3fd",
+      "utf8_hex": "41646d696ee281a7f09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin⁧️",
+      "escaped": "Admin\\u2067\\ufe0f",
+      "utf8_hex": "41646d696ee281a7efb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁧ ",
+      "escaped": "Admin\\u2067\\u2028",
+      "utf8_hex": "41646d696ee281a7e280a8",
+      "raw": "Admin⁧ ",
+      "escaped": "Admin\\u2067\\u2029",
+      "utf8_hex": "41646d696ee281a7e280a9",
+      "categories": [
+        "Cf",
+      "raw": "Admin⁨⁩",
+      "escaped": "Admin\\u2068\\u2069",
+      "utf8_hex": "41646d696ee281a8e281a9",
+    {
+      "raw": "Admin⁨̀",
+      "escaped": "Admin\\u2068\\u0300",
+      "utf8_hex": "41646d696ee281a8cc80",
+      "raw": "Admin⁨́",
+      "escaped": "Admin\\u2068\\u0301",
+      "utf8_hex": "41646d696ee281a8cc81",
+      "categories": [
+        "Cf",
+      "raw": "Admin⁨̈",
+      "escaped": "Admin\\u2068\\u0308",
+      "utf8_hex": "41646d696ee281a8cc88",
+    {
+      "raw": "Admin⁨̧",
+      "escaped": "Admin\\u2068\\u0327",
+      "utf8_hex": "41646d696ee281a8cca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁨🏻",
+      "escaped": "Admin\\u2068\\U0001f3fb",
+      "utf8_hex": "41646d696ee281a8f09f8fbb",
+    {
+      "raw": "Admin⁨🏽",
+      "escaped": "Admin\\u2068\\U0001f3fd",
+      "utf8_hex": "41646d696ee281a8f09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁨️",
+      "escaped": "Admin\\u2068\\ufe0f",
+      "utf8_hex": "41646d696ee281a8efb88f",
+    {
+      "raw": "Admin⁨ ",
+      "escaped": "Admin\\u2068\\u2028",
+      "utf8_hex": "41646d696ee281a8e280a8",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+      "raw": "Admin⁨ ",
+      "escaped": "Admin\\u2068\\u2029",
+      "utf8_hex": "41646d696ee281a8e280a9",
+    {
+      "raw": "Admin⁩̀",
+      "escaped": "Admin\\u2069\\u0300",
+      "utf8_hex": "41646d696ee281a9cc80",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁩́",
+      "escaped": "Admin\\u2069\\u0301",
+      "utf8_hex": "41646d696ee281a9cc81",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁩̈",
+      "escaped": "Admin\\u2069\\u0308",
+      "utf8_hex": "41646d696ee281a9cc88",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁩̧",
+      "escaped": "Admin\\u2069\\u0327",
+      "utf8_hex": "41646d696ee281a9cca7",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁩🏻",
+      "escaped": "Admin\\u2069\\U0001f3fb",
+      "utf8_hex": "41646d696ee281a9f09f8fbb",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin⁩🏽",
+      "escaped": "Admin\\u2069\\U0001f3fd",
+      "utf8_hex": "41646d696ee281a9f09f8fbd",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Sk"
+      ]
+    },
+    {
+      "raw": "Admin⁩️",
+      "escaped": "Admin\\u2069\\ufe0f",
+      "utf8_hex": "41646d696ee281a9efb88f",
+      "nfc_length": 7,
+      "length_changed_by_nfc": false,
+      "categories": [
+        "Cf",
+        "Mn"
+      ]
+    },
+    {
+      "raw": "Admin⁩ ",
+      "escaped": "Admin\\u2069\\u2028",
+      "utf8_hex": "41646d696ee281a9e280a8",
+      "raw": "Admin⁩ ",
+      "escaped": "Admin\\u2069\\u2029",
+      "utf8_hex": "41646d696ee281a9e280a9",
       "categories": [
         "Cf",
         "Zl"

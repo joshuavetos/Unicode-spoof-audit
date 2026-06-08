@@ -7,8 +7,19 @@ from typing import Dict, Iterator, List
 import unicodedata
 
 FUZZ_CATEGORIES: Dict[str, List[str]] = {
-    "zero_width": ["\u200b", "\u200c", "\u200d", "\ufeff"],
-    "direction": ["\u202a", "\u202b", "\u202c", "\u202d", "\u202e"],
+    "zero_width": ["\u200b", "\u200c", "\u200d", "\u2060", "\ufeff"],
+    "direction": [
+        "\u061c",
+        "\u202a",
+        "\u202b",
+        "\u202c",
+        "\u202d",
+        "\u202e",
+        "\u2066",
+        "\u2067",
+        "\u2068",
+        "\u2069",
+    ],
     "combining": ["\u0300", "\u0301", "\u0308", "\u0327"],
     "emoji_mod": ["\U0001f3fb", "\U0001f3fd", "\ufe0f"],
     "separators": ["\u2028", "\u2029"],

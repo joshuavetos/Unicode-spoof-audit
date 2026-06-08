@@ -38,3 +38,21 @@ def test_empty_reserved_names_and_empty_confusable_map_are_respected():
     assert gate.enforce_strict_identifier_policy("Admin")["status"] == "SECURE"
     assert options_for_character("A", confusable_map={}) == ["A"]
     assert list(generate_homoglyph_variants("Admin", limit=0)) == []
+
+
+def test_display_name_rejects_additional_layout_controls():
+    gate = ProductionIngressGate()
+    for control in ("\u061c", "\u2060", "\u2066", "\u2069"):
+        result = gate.analyze_display_name(f"safe{control}name")
+        assert result["status"] == "REJECTED"
+        assert result["reason"] == "BiDi/Invisible detected"
+        assert "layout_control" in result["flags"]
+
+
+def test_unicode_fuzzer_includes_expanded_layout_controls():
+    fuzz_cases = list(generate_unicode_fuzz_cases("Admin", max_width=1))
+    raw_values = {case["raw"] for case in fuzz_cases}
+    assert "Admin\u061c" in raw_values
+    assert "Admin\u2060" in raw_values
+    assert "Admin\u2066" in raw_values
+    assert "Admin\u2069" in raw_values

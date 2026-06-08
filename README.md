@@ -35,7 +35,7 @@ Admin
 
 Current benchmark corpus:
 
-- 1,763 generated variants
+- 1,771 generated variants
 - Homoglyph substitutions
 - Mixed-script variants
 - BiDi controls
@@ -46,11 +46,12 @@ Current benchmark corpus:
 
 | Metric | Result |
 | --- | --- |
-| Generated variants | 1,763 |
-| Mixed-script detection | 864 |
-| Skeleton detection | 674 |
-| Aggregate coverage | 62.73% |
-| Residual unflagged variants | 657 |
+| Generated variants | 1,771 |
+| Mixed-script detection | 1,523 |
+| Rejected variants | 1,738 |
+| Risk-flagged variants | 25 |
+| Aggregate coverage | 99.55% |
+| Residual unflagged variants | 8 |
 
 ### Runtime
 
@@ -86,7 +87,7 @@ Allowed character set:
 Policy behavior:
 
 - Reject all Unicode outside the allowlist
-- Reject reserved identities after canonical normalization
+- Reject reserved identities after NFKC canonical normalization
 - Treat identifiers as the authoritative security boundary
 
 ### Display Name Policy
@@ -103,6 +104,7 @@ Policy behavior:
 - Reject BiDi controls
 - Reject invisible layout controls
 - Reject dangerous Unicode categories
+- Reject NFKC compatibility collisions with reserved identities
 - Reject mixed-script compositions
 - Flag combining marks
 

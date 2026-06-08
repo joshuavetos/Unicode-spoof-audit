@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass
 from typing import List, Literal, Optional, Set
 import re
+import unicodedata
 
 Status = Literal["SECURE", "APPROVED", "RISK_FLAGGED", "REJECTED"]
 
@@ -25,8 +26,13 @@ class StrictIdentifierPolicy:
     STRICT_IDENTIFIER_RE = re.compile(r"\A[A-Za-z0-9_-]+\Z")
 
     def __init__(self, reserved_names: Optional[List[str]] = None):
-        base_reserved = reserved_names or ["admin", "root", "system", "support"]
-        self.reserved_set: Set[str] = {name.casefold().strip() for name in base_reserved if name}
+        base_reserved = ["admin", "root", "system", "support"] if reserved_names is None else reserved_names
+        self.reserved_set: Set[str] = {self.canonicalize(name) for name in base_reserved if name}
+
+    @staticmethod
+    def canonicalize(value: str) -> str:
+        """Return the comparison form used for reserved-name checks."""
+        return unicodedata.normalize("NFKC", value).casefold().strip()
 
     @staticmethod
     def result(raw: str, canonical: str, status: Status, reason: str, scripts: set[str] | None = None, flags: list[str] | None = None) -> dict:
@@ -40,7 +46,7 @@ class StrictIdentifierPolicy:
             return self.result("", "", "REJECTED", "Empty identifier")
         if not self.STRICT_IDENTIFIER_RE.fullmatch(input_str):
             return self.result(input_str, "", "REJECTED", "Violates strict ASCII allowlist")
-        canonical = input_str.casefold().strip()
+        canonical = self.canonicalize(input_str)
         if canonical in self.reserved_set:
             return self.result(input_str, canonical, "REJECTED", "Reserved identity collision")
         return self.result(input_str, canonical, "SECURE", "Passed strict ASCII isolation")

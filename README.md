@@ -35,7 +35,7 @@ Admin
 
 Current benchmark corpus:
 
-- 1,771 generated variants
+- 1,900 generated variants
 - Homoglyph substitutions
 - Mixed-script variants
 - BiDi controls
@@ -46,11 +46,11 @@ Current benchmark corpus:
 
 | Metric | Result |
 | --- | --- |
-| Generated variants | 1,771 |
+| Generated variants | 1,900 |
 | Mixed-script detection | 1,523 |
-| Rejected variants | 1,738 |
+| Rejected variants | 1,867 |
 | Risk-flagged variants | 25 |
-| Aggregate coverage | 99.55% |
+| Aggregate coverage | 99.58% |
 | Residual unflagged variants | 8 |
 
 ### Runtime
